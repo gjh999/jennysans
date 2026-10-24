@@ -581,7 +581,17 @@ location ~* \.(woff2|ttf)$ {
     add_header Cache-Control "public, max-age=31536000, immutable" always;
     gzip off;   # WOFF2 는 이미 Brotli 압축
 }</code></pre>
-        <p class="note">jsDelivr(npm) 경로 <code>https://cdn.jsdelivr.net/npm/jennysans@1.0.1/dist/css/jennysans-dynamic-subset.css</code> 는 npm 공개 후 동작합니다.</p>
+        <h3 class="panel-h">⑤ 공용 CDN · npm</h3>
+        <p>자체 CDN(위 ①~③) 대신 jsDelivr 를 쓰거나, npm 으로 받아 프로젝트에 넣을 수 있습니다. 파일·경로는 모두 같습니다.</p>
+        <pre><code>&lt;!-- jsDelivr (npm) --&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jennysans@1.0.1/dist/css/jennysans-dynamic-subset.css"&gt;
+&lt;!-- jsDelivr (GitHub) --&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gjh999/jennysans@v1.0.1/dist/css/jennysans-dynamic-subset.css"&gt;</code></pre>
+        <pre><code>npm install jennysans
+
+/* 번들러(Vite·webpack 등)에서 */
+import "jennysans/dist/css/jennysans-dynamic-subset.css";</code></pre>
+        <p class="note">버전을 고정한 주소(<code>@1.0.1</code>)를 쓰세요. 버전을 빼면 새 판이 나올 때 글자 모양이 예고 없이 바뀔 수 있습니다. 저장소 <a href="https://github.com/gjh999/jennysans" rel="noopener">github.com/gjh999/jennysans</a> · 패키지 <a href="https://www.npmjs.com/package/jennysans" rel="noopener">npmjs.com/package/jennysans</a>.</p>
       </div>
 
       <div class="panel" role="tabpanel" id="panel-flutter" aria-labelledby="tab-flutter" hidden>
@@ -773,7 +783,7 @@ $Label.add_theme_font_override("font", fv)</code></pre>
     <p class="en-summary" lang="en"><b>JennySans</b> (Korean name 제니산스) is a general-purpose sans-serif type family by JennySoft for Korean &amp; English (Latin) text, released under the SIL Open Font License 1.1 (Reserved Font Names "JennySans" and "제니산스"). It covers all 11,172 modern Hangul syllables, compatibility and conjoining jamo, ASCII, the complete Latin-1 Supplement and Latin Extended-A (Spanish, Portuguese, French, German, Polish, Czech, Turkish, Baltic and Nordic languages, …), basic Greek and Cyrillic, and KS X 1001 Korean document symbols, in 9 static weights (Thin 100 – Black 900) with identical vertical metrics plus one variable font (wght 100–900); no italics. Derived from Pretendard 1.3.9 (itself built on Inter, Source Han Sans and M PLUS 1) and Noto Sans KR 2.004 — no glyphs were drawn from scratch. Free for commercial use, modification, redistribution and embedding; the font files may not be sold by themselves, and modified versions must not use the reserved names.</p>
     <div class="footer-row">
       <p>© 2026 JennySoft · <a href="https://jennysoft.co.kr" rel="noopener">jennysoft.co.kr</a> · JennySans 1.001 · 패키지 2026-10-24</p>
-      <p>GitHub · npm (공개 예정) · <a href="test.html">QA 격자</a> · <a href="#top">맨 위로</a></p>
+      <p><a href="https://github.com/gjh999/jennysans" rel="noopener">GitHub</a> · <a href="https://www.npmjs.com/package/jennysans" rel="noopener">npm</a> · <a href="test.html">QA 격자</a> · <a href="#top">맨 위로</a></p>
     </div>
     <p class="footer-note">이 페이지는 외부 스크립트·CDN·타사 웹폰트를 쓰지 않습니다. 글꼴은 JennySans 뿐입니다. <span id="font-status" aria-live="polite"></span></p>
   </div>

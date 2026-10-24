@@ -8,7 +8,7 @@
 - 버전: **1.001**(npm 1.0.1, 2026-10-24 — 체크박스 ☐☑☒ 추가) · 첫 공개 1.000 은 2026-09-09(QA 판정 **RELEASE OK** · 승인 예외 0) · [CHANGELOG](CHANGELOG.md)
 - 홈페이지: **https://font.jennysoft.co.kr** — 타입 테스터 · 웨이트 견본 · 문장 견본 · [**글자맵**(전체 글립 탐색)](https://font.jennysoft.co.kr/glyphs.html) · [문자 범위](https://font.jennysoft.co.kr/#charset) · [지원 언어](https://font.jennysoft.co.kr/#languages) · [다운로드](https://font.jennysoft.co.kr/#download) · [사용법](https://font.jennysoft.co.kr/#usage) · 라이선스
 
-> 자체 CDN·다운로드는 **동작 중**입니다. GitHub 저장소 공개와 npm 배포는 준비만 돼 있습니다(사용자 승인 대기).
+> 자체 CDN·다운로드, GitHub 저장소(`gjh999/jennysans`), npm(`jennysans`), jsDelivr 모두 **동작 중**입니다(2026-10-24 공개).
 
 ---
 
@@ -26,7 +26,7 @@
 | 용량 | 정적 1웨이트 **2,553,816–2,700,344 bytes**(Regular 2,617,580, 9종 합 23,462,992) · 변수 **7,009,656 bytes** · WOFF2 전체본 647,572–764,252(변수 2,239,472) · 웹 첫 화면은 **페이지에 실제로 쓰인 글자에 따라** 31,144–158,320 bytes(→ §5-1) |
 | 수직 메트릭 | UPM 2048, typo = hhea = win **1950 / −494 / 0** + `USE_TYPO_METRICS` — 9 웨이트·변수 전부 동일(굵기를 바꿔도 줄 높이 불변) |
 | 라이선스 | **SIL OFL 1.1**, RFN `JennySans`·`제니산스`, `fsType` 0(설치·임베드 제한 없음) |
-| 배포 | **홈페이지·CDN·다운로드 동작 중**(`font.jennysoft.co.kr`) · GitHub `gjh999/jennysans` 와 npm `jennysans` 1.0.0 은 공개 예정 |
+| 배포 | **홈페이지·CDN·다운로드**(`font.jennysoft.co.kr`) · **GitHub** `gjh999/jennysans`(Release v1.0.1) · **npm** `jennysans@1.0.1` · **jsDelivr**(`cdn.jsdelivr.net/npm/jennysans@1.0.1/…`) — 모두 동작 중 |
 
 ### 1-1. 웨이트와 파일 이름
 

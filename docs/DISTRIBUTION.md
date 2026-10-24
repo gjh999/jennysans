@@ -66,9 +66,9 @@ CSS 안의 `src: url("../web/…")` 은 상대경로라 세 채널 모두에서 
 | 5 | ✅ **완료 2026-09-09** — 로컬 커밋(`dist/` 포함) | 팀장 | `git add -A && git commit -m "release: JennySans 1.000"` | 팀장 |
 | 6 | ✅ **완료 2026-09-09** — 태그 `v1.0.0`(푸시는 8번에서) | 팀장 | `git tag -a v1.0.0 -m "JennySans 1.000"` | 팀장 |
 | 7 | ✅ **완료 2026-09-09 10:27** — zip 4종 + `SHA256SUMS.txt` + `index.json` 최종 재생성 → 서버 `/download/` 배포본과 SHA 일치 확인 | font-site | `python tools/package.py --render-site` | |
-| 8 | ⬜ **남음** — GitHub 저장소 생성·push·태그 push | release | §5 A·B·C | **사용자 승인 대기** |
-| 9 | ⬜ **남음** — GitHub Release 생성 + 에셋 업로드 | release | §5 D | **사용자 승인 대기** |
-| 10 | ⬜ **남음** — npm publish | release | §5 E | **사용자 승인 대기** |
+| 8 | ✅ 2026-10-24 — GitHub 공개 저장소 생성·push(이력 없는 단일 커밋, 대표 결정)·태그 v1.0.1 | 코디네이터 | §5 A·B·C | 완료 |
+| 9 | ✅ 2026-10-24 — GitHub Release v1.0.1 + zip 4종·SHA256SUMS | 코디네이터 | §5 D | 완료 |
+| 10 | ✅ 2026-10-24 — npm `jennysans@1.0.1`(granular 토큰 + 2FA 우회, latest). 첫 공개 때 생긴 `0.0.0-stage` 는 deprecate | 코디네이터 | §5 E | 완료 |
 | 11 | DNS A 레코드 `font.jennysoft.co.kr → 175.127.49.246` | 사용자 | §5 F — **완료**(2026-09-06 실측) | 완료 |
 | 12 | ✅ **완료 2026-09-09 10:28** — nginx·인증서 + `deploy.sh 1.000` 배포. **배포 직후 전 경로 403** → 원인 SELinux 컨텍스트(`user_tmp_t`), `sudo restorecon -RF /var/www/font` 로 해소(`deploy/README.md` §4-1, 이후 `remote-install.sh` 가 자동 수행) | **팀장(서버 직접)** | `deploy/README.md` §2·§3 | 팀장 |
 | 13 | ✅ **완료 2026-09-09** — 실브라우저 검증 **ALL PASS**(홈페이지·다운로드 zip SHA-256 원본 대조 일치·CORS·캐시 헤더) | release·qa | §5 I | 팀장 |
