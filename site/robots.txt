@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*.bak.*
+Disallow: /test.html
+
+Sitemap: https://font.jennysoft.co.kr/sitemap.xml

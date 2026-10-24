@@ -1,0 +1,66 @@
+/* JennySans 1.001 — static, full charset. SIL OFL 1.1 (see LICENSE)
+   CDN: https://font.jennysoft.co.kr/v/1.001/css/jennysans.css  (relative ../web/ paths below; release rewrites them to https://font.jennysoft.co.kr/v/1.001/web/…)
+   latest: https://font.jennysoft.co.kr/latest/css/jennysans.css */
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../web/JennySans-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../web/JennySans-ExtraLight.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../web/JennySans-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../web/JennySans-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../web/JennySans-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../web/JennySans-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../web/JennySans-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../web/JennySans-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../web/JennySans-Black.woff2") format("woff2");
+}

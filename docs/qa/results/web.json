@@ -1,0 +1,229 @@
+{
+ "verdict": "PASS",
+ "counts": {
+  "PASS": 40,
+  "INFO": 4
+ },
+ "rows": [
+  [
+   "PASS",
+   "woff2",
+   "JennySans-Thin.woff2: 열림, flavor woff2, cmap 13257, 647,204 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-ExtraLight.woff2: 열림, flavor woff2, cmap 13257, 688,436 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-Light.woff2: 열림, flavor woff2, cmap 13257, 713,452 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-Regular.woff2: 열림, flavor woff2, cmap 13257, 726,548 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-Medium.woff2: 열림, flavor woff2, cmap 13257, 737,832 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-SemiBold.woff2: 열림, flavor woff2, cmap 13257, 745,684 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-Bold.woff2: 열림, flavor woff2, cmap 13257, 756,768 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-ExtraBold.woff2: 열림, flavor woff2, cmap 13257, 759,324 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySans-Black.woff2: 열림, flavor woff2, cmap 13257, 764,144 B, 테이블 18"
+  ],
+  [
+   "PASS",
+   "woff2",
+   "JennySansVariable.woff2: 열림, flavor woff2, cmap 13257, 2,239,876 B, 테이블 20"
+  ],
+  [
+   "INFO",
+   "css",
+   "jennysans-dynamic-subset.css: 448,316 B (gzip 101,391 B), @font-face 891"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans-dynamic-subset.css: url 실존 위반 0, font-family 위반 0, font-display 위반 0, unicode-range 문법 오류 0 [][]"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans-dynamic-subset.css: font-weight 집합 [100, 200, 300, 400, 500, 600, 700, 800, 900]"
+  ],
+  [
+   "PASS",
+   "size",
+   "jennysans-dynamic-subset.css: gzip 101,391 B (목표 ≤ 110 KB, 스펙 05 §4)"
+  ],
+  [
+   "INFO",
+   "css",
+   "jennysans-variable-dynamic-subset.css: 69,443 B (gzip 12,437 B), @font-face 99"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans-variable-dynamic-subset.css: url 실존 위반 0, font-family 위반 0, font-display 위반 0, unicode-range 문법 오류 0 [][]"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans-variable-dynamic-subset.css: font-weight '100 900' 전부"
+  ],
+  [
+   "INFO",
+   "css",
+   "jennysans-variable.css: 679 B (gzip 335 B), @font-face 1"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans-variable.css: url 실존 위반 0, font-family 위반 0, font-display 위반 0, unicode-range 문법 오류 0 [][]"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans-variable.css: 변수 src 3중 폴백 표기"
+  ],
+  [
+   "INFO",
+   "css",
+   "jennysans.css: 1,887 B (gzip 375 B), @font-face 9"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans.css: url 실존 위반 0, font-family 위반 0, font-display 위반 0, unicode-range 문법 오류 0 [][]"
+  ],
+  [
+   "PASS",
+   "css",
+   "jennysans.css: @font-face 9"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-Thin: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-Thin: 슬라이스 최대 30,872 B (≤40 KB), 라틴 #123 30,872 B (≤35 KB), 합계 1,180,096 B, rest #[124, 125, 126] 44,460 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-ExtraLight: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-ExtraLight: 슬라이스 최대 31,028 B (≤40 KB), 라틴 #123 31,028 B (≤35 KB), 합계 1,207,664 B, rest #[124, 125, 126] 46,156 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-Light: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-Light: 슬라이스 최대 31,036 B (≤40 KB), 라틴 #123 31,036 B (≤35 KB), 합계 1,217,668 B, rest #[124, 125, 126] 46,296 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-Regular: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-Regular: 슬라이스 최대 31,112 B (≤40 KB), 라틴 #123 31,112 B (≤35 KB), 합계 1,223,584 B, rest #[124, 125, 126] 46,696 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-Medium: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-Medium: 슬라이스 최대 31,320 B (≤40 KB), 라틴 #123 31,320 B (≤35 KB), 합계 1,229,404 B, rest #[124, 125, 126] 46,800 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-SemiBold: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-SemiBold: 슬라이스 최대 31,140 B (≤40 KB), 라틴 #123 31,140 B (≤35 KB), 합계 1,232,876 B, rest #[124, 125, 126] 46,868 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-Bold: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-Bold: 슬라이스 최대 31,212 B (≤40 KB), 라틴 #123 31,212 B (≤35 KB), 합계 1,233,448 B, rest #[124, 125, 126] 47,096 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-ExtraBold: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-ExtraBold: 슬라이스 최대 31,188 B (≤40 KB), 라틴 #123 31,188 B (≤35 KB), 합계 1,231,712 B, rest #[124, 125, 126] 47,088 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySans-Black: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySans-Black: 슬라이스 최대 31,068 B (≤40 KB), 라틴 #123 31,068 B (≤35 KB), 합계 1,234,812 B, rest #[124, 125, 126] 45,632 B"
+  ],
+  [
+   "PASS",
+   "slice",
+   "JennySansVariable: 슬라이스 99개, cmap⊆range 위반 [], 겹침 0, 합집합−전체본 누락 0 추가 0, #123 space/nbsp True, 정의 = JennySans-Thin True"
+  ],
+  [
+   "PASS",
+   "size",
+   "JennySansVariable: 슬라이스 최대 92,056 B (≤95 KB), 라틴 #123 69,360 B (≤70 KB), 합계 3,402,740 B, rest #[124, 125, 126] 236,440 B"
+  ],
+  [
+   "PASS",
+   "files",
+   "dist/web/subset 파일 990개, 규칙 외 []"
+  ]
+ ]
+}

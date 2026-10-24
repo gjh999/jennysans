@@ -1,0 +1,17 @@
+# JennySans charset — korean-old.txt (옛한글 자모 확장 — **범위 밖 후보**, 원본(보충원본 포함)에 있으면 유지·없으면 채우지 않음)
+# 형식은 required.txt 와 같다. 이 파일은 게이트 검사 대상이 아니다.
+# 빌드 대상 = required ∪ recommended ∪ korean-old(∩ 원본 보유) — 팀장 결정 ①(AGENTS §8 2026-09-06). 게이트는 required 100% 만.
+#
+# 사유(docs/spec/01-family.md §범위 밖 참조):
+#  1. 옛한글 표시는 자모 글립만으로는 부족하고 초·중·종성 결합 셰이핑(GSUB ljmo/vjmo/tjmo + 조합형 글립 수백 개)이 필요하다.
+#     조합 피처는 범위 밖(AGENTS §8) — 자모 단독 글립만 싣는다.
+#  2. 제니소프트 솔루션(웹앱·게임·문서)에서 옛한글 수요가 확인되지 않았다. 수요 발생 시 후속 프로젝트(JennySans Old Hangul).
+#  3. Hangul Jamo 기본 블록 U+1100–11FF 256자(옛자모 187 포함)는 팀장 결정 ①로 required.txt 로 이동했다(보충원본 Noto Sans KR VF 전량 보유).
+#
+# 근거: 각 구간의 할당 여부는 charset/scripts/count.py 가 unicodedata 로 검사한다(미할당 0 이어야 함).
+
+U+A960-U+A97C  # Hangul Jamo Extended-A 초성 29자 (Unicode 5.2)
+U+D7B0-U+D7C6  # Hangul Jamo Extended-B 중성 23자 (Unicode 5.2)
+U+D7CB-U+D7FB  # Hangul Jamo Extended-B 종성 49자 (Unicode 5.2)
+U+302E-U+302F  # 〮 〯 한글 방점(성조 표기) — 옛한글 문헌 전용 결합문자
+# (참고) 한양 PUA 옛한글(U+E0BC–U+F8F7) 은 유니코드 표준이 아니므로 어떤 파일에도 넣지 않는다.

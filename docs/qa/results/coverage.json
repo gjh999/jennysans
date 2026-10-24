@@ -1,0 +1,474 @@
+{
+ "verdict": "PASS",
+ "counts": {
+  "INFO": 41,
+  "PASS": 52
+ },
+ "rows": [
+  [
+   "INFO",
+   "charset",
+   "required 12602 · recommended 898 · korean-old 103 (tools/charset.py 파싱)"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Thin.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Thin.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Thin.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Thin.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-ExtraLight.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-ExtraLight.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraLight.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraLight.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Light.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Light.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Light.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Light.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Regular.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Regular.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Regular.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Regular.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Medium.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Medium.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Medium.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Medium.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-SemiBold.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-SemiBold.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-SemiBold.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-SemiBold.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Bold.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Bold.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Bold.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Bold.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-ExtraBold.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-ExtraBold.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraBold.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraBold.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Black.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Black.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Black.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Black.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySansVariable.ttf: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySansVariable.ttf: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySansVariable.ttf: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySansVariable.ttf: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Thin.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Thin.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Thin.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Thin.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-ExtraLight.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-ExtraLight.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraLight.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraLight.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Light.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Light.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Light.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Light.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Regular.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Regular.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Regular.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Regular.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Medium.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Medium.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Medium.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Medium.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-SemiBold.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-SemiBold.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-SemiBold.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-SemiBold.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Bold.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Bold.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Bold.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Bold.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-ExtraBold.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-ExtraBold.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraBold.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-ExtraBold.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySans-Black.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySans-Black.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Black.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySans-Black.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "coverage",
+   "JennySansVariable.woff2: required 12602/12602 cmap 존재·비-notdef·외곽선 있음(공백류 7 제외)"
+  ],
+  [
+   "PASS",
+   "hangul",
+   "JennySansVariable.woff2: 한글 음절 11,172/11,172"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySansVariable.woff2: recommended 보유 552/898"
+  ],
+  [
+   "INFO",
+   "coverage",
+   "JennySansVariable.woff2: korean-old 보유 103/103"
+  ],
+  [
+   "PASS",
+   "cmap-equal",
+   "정적 9종 cmap 집합 동일 (13257 cps)"
+  ],
+  [
+   "PASS",
+   "cmap-equal",
+   "변수 폰트 cmap = 정적 cmap"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-Thin.ttf ↔ JennySans-Thin.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-ExtraLight.ttf ↔ JennySans-ExtraLight.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-Light.ttf ↔ JennySans-Light.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-Regular.ttf ↔ JennySans-Regular.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-Medium.ttf ↔ JennySans-Medium.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-SemiBold.ttf ↔ JennySans-SemiBold.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-Bold.ttf ↔ JennySans-Bold.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-ExtraBold.ttf ↔ JennySans-ExtraBold.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySans-Black.ttf ↔ JennySans-Black.woff2 cmap 동일"
+  ],
+  [
+   "PASS",
+   "ttf=woff2",
+   "JennySansVariable.ttf ↔ JennySansVariable.woff2 cmap 동일"
+  ]
+ ]
+}

@@ -1,0 +1,12 @@
+/* JennySans 1.001 — variable (wght 100-900), full charset. SIL OFL 1.1 (see LICENSE)
+   CDN: https://font.jennysoft.co.kr/v/1.001/css/jennysans-variable.css  (relative ../web/ paths below; release rewrites them to https://font.jennysoft.co.kr/v/1.001/web/…)
+   latest: https://font.jennysoft.co.kr/latest/css/jennysans-variable.css */
+@font-face {
+  font-family: "JennySans";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../web/JennySansVariable.woff2") format("woff2") tech("variations"),
+       url("../web/JennySansVariable.woff2") format("woff2-variations"),
+       url("../web/JennySansVariable.woff2") format("woff2");
+}

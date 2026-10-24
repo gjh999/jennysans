@@ -1,0 +1,224 @@
+{
+ "verdict": "PASS",
+ "counts": {
+  "INFO": 13,
+  "PASS": 30
+ },
+ "rows": [
+  [
+   "INFO",
+   "env",
+   "Pillow 12.3.0, FreeType 2.14.3, raqm False"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "Thin: docs\\qa\\shots\\render-Thin.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Thin 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-Thin-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Thin 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-Thin-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Thin 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "ExtraLight: docs\\qa\\shots\\render-ExtraLight.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "ExtraLight 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-ExtraLight-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "ExtraLight 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-ExtraLight-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "ExtraLight 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "Light: docs\\qa\\shots\\render-Light.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Light 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-Light-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Light 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-Light-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Light 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "Regular: docs\\qa\\shots\\render-Regular.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Regular 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-Regular-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Regular 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-Regular-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Regular 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "Medium: docs\\qa\\shots\\render-Medium.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Medium 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-Medium-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Medium 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-Medium-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Medium 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "SemiBold: docs\\qa\\shots\\render-SemiBold.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "SemiBold 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-SemiBold-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "SemiBold 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-SemiBold-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "SemiBold 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "Bold: docs\\qa\\shots\\render-Bold.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Bold 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-Bold-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Bold 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-Bold-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Bold 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "ExtraBold: docs\\qa\\shots\\render-ExtraBold.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "ExtraBold 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-ExtraBold-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "ExtraBold 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-ExtraBold-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "ExtraBold 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "Black: docs\\qa\\shots\\render-Black.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Black 24px (lh 29px): 가로선 행 1·빈 열 0, 세로선 열 1·빈 행 0 → shots/box-Black-24px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Black 48px (lh 57px): 가로선 행 2·빈 열 0, 세로선 열 2·빈 행 0 → shots/box-Black-48px.png"
+  ],
+  [
+   "PASS",
+   "box",
+   "Black 48px 굵은 괘선(┏━┳): 빈 열 0, 빈 행 0"
+  ],
+  [
+   "PASS",
+   "line-height",
+   "9 웨이트 FreeType getmetrics (ascent, descent, 합) 40px: (39, 10, 49) — 전부 동일"
+  ],
+  [
+   "INFO",
+   "sheet",
+   "9 웨이트 + 줄높이: docs\\qa\\shots\\render-all-weights.png"
+  ],
+  [
+   "INFO",
+   "variable",
+   "FreeType 축 [{'minimum': 100, 'default': 400, 'maximum': 900, 'name': b'Weight'}]"
+  ],
+  [
+   "INFO",
+   "variable",
+   "docs\\qa\\shots\\render-variable.png"
+  ],
+  [
+   "PASS",
+   "box-vf",
+   "VF wght 250 48px: 빈 열 0, 빈 행 0"
+  ],
+  [
+   "PASS",
+   "box-vf",
+   "VF wght 650 48px: 빈 열 0, 빈 행 0"
+  ]
+ ]
+}

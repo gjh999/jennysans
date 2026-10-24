@@ -1,0 +1,96 @@
+# QA 티켓 1·2·3·4·6·9·11 재검 (8차 빌드)
+
+결과: **PASS** (FAIL 0 · WARN 0 · PASS 90 · INFO 0)
+
+| 상태 | 항목 | 내용 |
+|---|---|---|
+| PASS | t1-case_mapping | JennySans-Thin.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2550 (기대 adv(D)+adv(Zcaron) = 1382+1168 = 2550), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-Thin.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-Thin.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-Thin.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-Thin.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-Thin.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-Thin.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-Thin.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-ExtraLight.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2574 (기대 adv(D)+adv(Zcaron) = 1388+1186 = 2574), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-ExtraLight.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-ExtraLight.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-ExtraLight.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-ExtraLight.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-ExtraLight.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-ExtraLight.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-ExtraLight.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-Light.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2598 (기대 adv(D)+adv(Zcaron) = 1396+1202 = 2598), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-Light.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-Light.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-Light.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-Light.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-Light.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-Light.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-Light.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-Regular.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2622 (기대 adv(D)+adv(Zcaron) = 1404+1218 = 2622), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-Regular.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-Regular.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-Regular.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-Regular.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-Regular.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-Regular.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-Regular.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-Medium.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2662 (기대 adv(D)+adv(Zcaron) = 1414+1248 = 2662), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-Medium.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-Medium.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-Medium.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-Medium.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-Medium.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-Medium.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-Medium.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-SemiBold.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2704 (기대 adv(D)+adv(Zcaron) = 1424+1280 = 2704), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-SemiBold.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-SemiBold.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-SemiBold.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-SemiBold.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-SemiBold.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-SemiBold.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-SemiBold.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-Bold.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2748 (기대 adv(D)+adv(Zcaron) = 1436+1312 = 2748), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-Bold.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-Bold.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-Bold.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-Bold.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-Bold.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-Bold.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-Bold.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-ExtraBold.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2788 (기대 adv(D)+adv(Zcaron) = 1446+1342 = 2788), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-ExtraBold.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-ExtraBold.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-ExtraBold.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-ExtraBold.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-ExtraBold.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-ExtraBold.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-ExtraBold.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySans-Black.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2830 (기대 adv(D)+adv(Zcaron) = 1456+1374 = 2830), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySans-Black.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySans-Black.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySans-Black.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySans-Black.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySans-Black.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySans-Black.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySans-Black.ttf: 제거 대상 4자 잔존 [] · `.null` 유지 True |
+| PASS | t1-case_mapping | JennySansVariable.ttf: U+01C4 컴포지트 ['D', 'Z', 'caron'] adv 2622 (기대 adv(D)+adv(Zcaron) = 1404+1218 = 2622), U+01C5/01C6 존재 |
+| PASS | t2-nested | JennySansVariable.ttf: 중첩 컴포지트 0 [] |
+| PASS | t6-transformed | JennySansVariable.ttf: 변환 컴포넌트 사용 글립 0 [] |
+| PASS | t3-no_mac_entries | JennySansVariable.ttf: platformID 1 레코드 0 |
+| PASS | t4-smart_dropout | JennySansVariable.ttf: prep ['PUSHW[]', '511', 'SCANCTRL[]', 'PUSHB[]', '4', 'SCANTYPE[]'] · gasp {65535: 15} |
+| PASS | t9-vertical | JennySansVariable.ttf: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t11-orphans | JennySansVariable.ttf: 글립 13983 중 도달 불가 0 [] (QA 독립 도달성 계산) |
+| PASS | t11-removed | JennySansVariable.ttf: 제거 대상 6자 잔존 [] · `.null` 유지 True |
+| PASS | t9-vertical | JennySans-Thin.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-ExtraLight.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-Light.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-Regular.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-Medium.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-SemiBold.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-Bold.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-ExtraBold.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySans-Black.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |
+| PASS | t9-vertical | JennySansVariable.woff2: vhea/vmtx/VVAR/VORG 잔존 [] (기대 없음) |

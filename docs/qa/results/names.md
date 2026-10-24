@@ -1,0 +1,302 @@
+# name·RFN·라이선스 (게이트 4·8)
+
+결과: **PASS** (FAIL 0 · WARN 0 · PASS 272 · INFO 22)
+
+| 상태 | 항목 | 내용 |
+|---|---|---|
+| INFO | license | LICENSE 1행: "Copyright (c) 2026 JennySoft (https://jennysoft.co.kr), with Reserved Font Names 'JennySans' and '제니산스'." (112 bytes, BOM False, CRLF False) |
+| PASS | spec02 | JennySans-Thin.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Thin.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Thin.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Thin.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Thin.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Thin.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Thin.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Thin.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Thin.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Thin.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Thin.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Thin.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Thin.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Thin.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-ExtraLight.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-ExtraLight.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-ExtraLight.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-ExtraLight.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-ExtraLight.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraLight.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraLight.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraLight.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-ExtraLight.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-ExtraLight.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-ExtraLight.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-ExtraLight.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-ExtraLight.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-ExtraLight.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Light.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Light.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Light.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Light.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Light.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Light.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Light.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Light.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Light.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Light.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Light.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Light.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Light.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Light.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Regular.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Regular.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Regular.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Regular.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Regular.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Regular.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Regular.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Regular.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Regular.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Regular.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Regular.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Regular.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Regular.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Regular.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Medium.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Medium.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Medium.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Medium.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Medium.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Medium.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Medium.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Medium.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Medium.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Medium.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Medium.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Medium.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Medium.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Medium.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-SemiBold.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-SemiBold.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-SemiBold.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-SemiBold.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-SemiBold.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-SemiBold.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-SemiBold.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-SemiBold.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-SemiBold.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-SemiBold.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-SemiBold.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-SemiBold.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-SemiBold.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-SemiBold.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Bold.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Bold.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Bold.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Bold.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Bold.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Bold.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Bold.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Bold.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Bold.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Bold.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Bold.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Bold.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Bold.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Bold.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-ExtraBold.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-ExtraBold.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-ExtraBold.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-ExtraBold.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-ExtraBold.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraBold.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraBold.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraBold.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-ExtraBold.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-ExtraBold.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-ExtraBold.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-ExtraBold.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-ExtraBold.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-ExtraBold.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Black.ttf: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Black.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Black.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Black.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Black.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Black.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Black.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Black.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Black.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Black.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Black.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Black.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Black.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Black.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySansVariable.ttf: en 18·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySansVariable.ttf: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySansVariable.ttf: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySansVariable.ttf: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySansVariable.ttf: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySansVariable.ttf: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySansVariable.ttf: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySansVariable.ttf: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySansVariable.ttf: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySansVariable.ttf: 파일명 규칙(01 §5) 일치, stem == ID 6 False |
+| PASS | notice | JennySansVariable.ttf: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySansVariable.ttf: ID 13/14 정확 일치 |
+| PASS | italic | JennySansVariable.ttf: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySansVariable.ttf: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Thin.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Thin.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Thin.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Thin.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Thin.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Thin.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Thin.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Thin.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Thin.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Thin.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Thin.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Thin.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Thin.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Thin.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-ExtraLight.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-ExtraLight.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-ExtraLight.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-ExtraLight.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-ExtraLight.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraLight.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraLight.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraLight.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-ExtraLight.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-ExtraLight.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-ExtraLight.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-ExtraLight.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-ExtraLight.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-ExtraLight.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Light.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Light.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Light.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Light.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Light.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Light.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Light.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Light.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Light.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Light.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Light.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Light.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Light.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Light.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Regular.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Regular.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Regular.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Regular.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Regular.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Regular.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Regular.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Regular.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Regular.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Regular.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Regular.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Regular.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Regular.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Regular.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Medium.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Medium.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Medium.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Medium.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Medium.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Medium.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Medium.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Medium.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Medium.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Medium.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Medium.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Medium.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Medium.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Medium.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-SemiBold.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-SemiBold.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-SemiBold.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-SemiBold.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-SemiBold.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-SemiBold.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-SemiBold.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-SemiBold.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-SemiBold.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-SemiBold.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-SemiBold.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-SemiBold.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-SemiBold.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-SemiBold.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Bold.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Bold.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Bold.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Bold.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Bold.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Bold.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Bold.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Bold.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Bold.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Bold.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Bold.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Bold.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Bold.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Bold.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-ExtraBold.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-ExtraBold.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-ExtraBold.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-ExtraBold.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-ExtraBold.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraBold.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraBold.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-ExtraBold.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-ExtraBold.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-ExtraBold.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-ExtraBold.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-ExtraBold.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-ExtraBold.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-ExtraBold.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySans-Black.woff2: en 17·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySans-Black.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySans-Black.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySans-Black.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySans-Black.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Black.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Black.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySans-Black.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySans-Black.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySans-Black.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 True |
+| PASS | notice | JennySans-Black.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySans-Black.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySans-Black.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySans-Black.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | spec02 | JennySansVariable.woff2: en 18·ko 3 레코드 spec 02 문자열 완전 일치 |
+| PASS | mac-records | JennySansVariable.woff2: platformID 1(Macintosh) 레코드 0건 (기대 0 — 티켓 3) |
+| INFO | spec02 | JennySansVariable.woff2: ID 19(샘플) = '제니산스 JennySans ¿Qué tal, señor? 0123456789' (spec 02 표에 없음, 무해) |
+| PASS | license-line1 | JennySansVariable.woff2: name ID 0 1행 == LICENSE 1행 (UTF-8 112 bytes 동일) |
+| PASS | license-lines | JennySansVariable.woff2: ID0 'Copyright (c) 2021, Kil Hyung-jin (https…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySansVariable.woff2: ID0 'Copyright 2014-2021 Adobe (http://www.ad…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySansVariable.woff2: ID0 'Copyright (c) 2016 The Inter Project Aut…' LICENSE 원문 포함 |
+| PASS | license-lines | JennySansVariable.woff2: ID0 'Copyright 2021 The M+ FONTS Project Auth…' LICENSE 원문 포함 |
+| PASS | rfn | JennySansVariable.woff2: 식별 레코드 [1, 2, 3, 4, 6, 16, 17, 18, 21, 22, 25, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299] · 글립명 13983개 에 원본 RFN 문자열 0건 |
+| PASS | filename | JennySansVariable.woff2: 파일명 규칙(01 §5) 일치, stem == ID 6 False |
+| PASS | notice | JennySansVariable.woff2: 고지 레코드 ID0(5행)·ID7(상표 4건)·ID9(크레딧) 원저작자 표기 유지 |
+| PASS | notice | JennySansVariable.woff2: ID 13/14 정확 일치 |
+| PASS | italic | JennySansVariable.woff2: name 에 Italic/Oblique 없음 |
+| PASS | featureparams | JennySansVariable.woff2: cv/ss FeatureParams 참조 25개 en+ko 레코드 존재 |
+| PASS | psname | PostScript 이름 18개(정적 9 + VF 인스턴스 9; VF ID 6 = Regular 인스턴스) 전부 유일: ['JennySans-Thin', 'JennySans-ExtraLight', 'JennySans-Light', 'JennySans-Regular', 'JennySans-Medium', 'JennySans-SemiBold', 'JennySans-Bold', 'JennySans-ExtraBold', 'JennySans-Black', 'JennySansVariable-Regular', 'JennySansVariable-Thin', 'JennySansVariable-ExtraLight', 'JennySansVariable-Light', 'JennySansVariable-Medium', 'JennySansVariable-SemiBold', 'JennySansVariable-Bold', 'JennySansVariable-ExtraBold', 'JennySansVariable-Black'] |
+| PASS | license-blocks | Pretendard LICENSE 블록 원문 포함: Copyright (c) 2021, Kil Hyung-jin (https://github.com/orionc… |
+| PASS | license-blocks | Pretendard LICENSE 블록 원문 포함: Copyright 2014-2021 Adobe (http://www.adobe.com/),… |
+| PASS | license-blocks | Pretendard LICENSE 블록 원문 포함: Copyright (c) 2016 The Inter Project Authors (https://github… |
+| PASS | license-blocks | Pretendard LICENSE 블록 원문 포함: Copyright 2021 The M+ FONTS Project Authors (https://github.… |
+| PASS | license-blocks | Noto GF OFL 1행 원문 포함: Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font  |
+| INFO | ofl-body | LICENSE OFL 본문(구분선 이후, 줄끝 정규화) SHA-256 6f9807a7127177a76fae2209e11f4b90d01a50cbfdb3dfe5704c2dcb2c68a3d1 |
+| PASS | third-party | THIRD-PARTY-NOTICES 표 원본 행 2 (= AGENTS §5-1 채택 2) |
+| PASS | manifest-sha | Pretendard/PretendardVariable.ttf: 일치 (THIRD-PARTY/MANIFEST 3090ccde0442bb34…) |
+| PASS | manifest-sha | Pretendard/alternative-ttf/Pretendard-Regular.ttf: 일치 (THIRD-PARTY/MANIFEST 6d0af5258997aec7…) |
+| PASS | manifest-sha | Pretendard/alternative-ttf/Pretendard-Bold.ttf: 일치 (THIRD-PARTY/MANIFEST c16b88c670d23e83…) |
+| PASS | manifest-sha | NotoSansKR/NotoSansKR[wght].ttf: 일치 (THIRD-PARTY/MANIFEST 194018e6b2b293a7…) |
+| PASS | readme | README.md 라이선스 절 존재 |
+
+전 레코드 덤프: `docs/qa/name-dump-1.001.md`

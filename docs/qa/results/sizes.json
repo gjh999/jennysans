@@ -1,0 +1,59 @@
+{
+ "verdict": "PASS",
+ "counts": {
+  "PASS": 9,
+  "INFO": 1
+ },
+ "rows": [
+  [
+   "PASS",
+   "static",
+   "JennySans-Thin.ttf: 2,700,868 B vs 원본 2,868,924 B (-5.9%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-ExtraLight.ttf: 2,671,068 B vs 원본 2,838,808 B (-5.9%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-Light.ttf: 2,646,100 B vs 원본 2,813,692 B (-6.0%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-Regular.ttf: 2,618,068 B vs 원본 2,725,828 B (-4.0%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-Medium.ttf: 2,593,172 B vs 원본 2,701,192 B (-4.0%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-SemiBold.ttf: 2,564,392 B vs 원본 2,671,468 B (-4.0%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-Bold.ttf: 2,554,304 B vs 원본 2,661,752 B (-4.0%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-ExtraBold.ttf: 2,561,880 B vs 원본 2,669,648 B (-4.0%), 글립 13983 vs 14716"
+  ],
+  [
+   "PASS",
+   "static",
+   "JennySans-Black.ttf: 2,557,572 B vs 원본 2,665,004 B (-4.0%), 글립 13983 vs 14716"
+  ],
+  [
+   "INFO",
+   "variable",
+   "JennySansVariable.ttf: 7,012,840 B vs PretendardVariable.ttf 6,739,336 B (+4.1%) — 보충 908 글립 gvar 추가로 증가 허용(게이트 6 은 정적 기준)"
+  ]
+ ]
+}

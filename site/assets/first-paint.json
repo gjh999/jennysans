@@ -1,0 +1,32 @@
+{
+ "generated": "2026-10-24T14:39:26+09:00",
+ "version": "1.001",
+ "base": "http://127.0.0.1:50317",
+ "css": "jennysans-dynamic-subset.css",
+ "cases": {
+  "latin": {
+   "label": "라틴 전용 페이지 · 한 웨이트",
+   "requests": 1,
+   "bytes": 31112,
+   "kb": 30.4
+  },
+  "ko_short": {
+   "label": "한국어 한 문장 · 한 웨이트",
+   "requests": 7,
+   "bytes": 85452,
+   "kb": 83.4
+  },
+  "ko_para": {
+   "label": "한국어 소개문 한 문단 · 한 웨이트",
+   "requests": 9,
+   "bytes": 105412,
+   "kb": 102.9
+  },
+  "ko_two_weights": {
+   "label": "한국어 두 문단 + 제목 · 두 웨이트(400·700)",
+   "requests": 13,
+   "bytes": 158428,
+   "kb": 154.7
+  }
+ }
+}

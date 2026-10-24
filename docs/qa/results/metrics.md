@@ -1,0 +1,811 @@
+# 메트릭·OS/2·STAT·피처 동일성 (게이트 5, 3·4 보조)
+
+결과: **PASS** (FAIL 0 · WARN 0 · PASS 683 · INFO 122)
+
+| 상태 | 항목 | 내용 |
+|---|---|---|
+| INFO | orig-features | Pretendard-Regular.ttf: GSUB 46 GPOS 4 |
+| INFO | orig-features | PretendardVariable.ttf: GSUB 47 GPOS 4 |
+| PASS | vmetrics | JennySans-Thin.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Thin.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Thin.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Thin.ttf: usWeightClass 100 기대 100 |
+| PASS | widthClass | JennySans-Thin.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-Thin.ttf: fsType 0 |
+| PASS | vendID | JennySans-Thin.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-Thin.ttf: panose [2, 11, 2, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/2/3) |
+| PASS | underline | JennySans-Thin.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-Thin.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Thin.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-Thin.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Thin.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-Thin.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Thin.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Thin.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Thin.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-Thin.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Thin.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-Thin.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Thin.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Thin.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Thin.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Thin.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Thin.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Thin.ttf: 대표 글립 20자 bbox·adv Pretendard-Thin.ttf 와 동일 |
+| INFO | orig | Pretendard-Thin.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -307/60 xAvg 1678 → ours xAvg 1726 |
+| INFO | bbox | JennySans-Thin.ttf: head bbox (-878, -552, 5122, 2062) — yMax 2062 vs winAscent 1950, yMin -552 vs -winDescent -494 |
+| PASS | features | JennySans-Thin.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Thin.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Thin.ttf: 축 ['wght'], 값 [(1, 100.0, 'Thin', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Thin.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Thin.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Thin.ttf: xAvgCharWidth 1726, usMaxContext 12, first/last 0x20/0xffee, strikeout 60/652, numGlyphs 13983, hhea.advanceWidthMax 5298 |
+| PASS | vmetrics | JennySans-ExtraLight.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-ExtraLight.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-ExtraLight.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-ExtraLight.ttf: usWeightClass 200 기대 200 |
+| PASS | widthClass | JennySans-ExtraLight.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-ExtraLight.ttf: fsType 0 |
+| PASS | vendID | JennySans-ExtraLight.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-ExtraLight.ttf: panose [2, 11, 3, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/3/3) |
+| PASS | underline | JennySans-ExtraLight.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-ExtraLight.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-ExtraLight.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-ExtraLight.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-ExtraLight.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-ExtraLight.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-ExtraLight.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-ExtraLight.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-ExtraLight.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-ExtraLight.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-ExtraLight.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-ExtraLight.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-ExtraLight.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-ExtraLight.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraLight.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-ExtraLight.ttf: 대표 글립 20자 bbox·adv Pretendard-ExtraLight.ttf 와 동일 |
+| INFO | orig | Pretendard-ExtraLight.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -291/86 xAvg 1683 → ours xAvg 1728 |
+| INFO | bbox | JennySans-ExtraLight.ttf: head bbox (-892, -554, 5200, 2070) — yMax 2070 vs winAscent 1950, yMin -554 vs -winDescent -494 |
+| PASS | features | JennySans-ExtraLight.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-ExtraLight.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-ExtraLight.ttf: 축 ['wght'], 값 [(1, 200.0, 'ExtraLight', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-ExtraLight.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-ExtraLight.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-ExtraLight.ttf: xAvgCharWidth 1728, usMaxContext 12, first/last 0x20/0xffee, strikeout 86/652, numGlyphs 13983, hhea.advanceWidthMax 5302 |
+| PASS | vmetrics | JennySans-Light.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Light.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Light.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Light.ttf: usWeightClass 300 기대 300 |
+| PASS | widthClass | JennySans-Light.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-Light.ttf: fsType 0 |
+| PASS | vendID | JennySans-Light.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-Light.ttf: panose [2, 11, 4, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/4/3) |
+| PASS | underline | JennySans-Light.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-Light.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Light.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-Light.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Light.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-Light.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Light.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Light.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Light.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-Light.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Light.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-Light.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Light.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Light.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Light.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Light.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Light.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Light.ttf: 대표 글립 20자 bbox·adv Pretendard-Light.ttf 와 동일 |
+| INFO | orig | Pretendard-Light.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -274/112 xAvg 1688 → ours xAvg 1731 |
+| INFO | bbox | JennySans-Light.ttf: head bbox (-922, -556, 5328, 2122) — yMax 2122 vs winAscent 1950, yMin -556 vs -winDescent -494 |
+| PASS | features | JennySans-Light.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Light.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Light.ttf: 축 ['wght'], 값 [(1, 300.0, 'Light', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Light.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Light.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Light.ttf: xAvgCharWidth 1731, usMaxContext 12, first/last 0x20/0xffee, strikeout 112/652, numGlyphs 13983, hhea.advanceWidthMax 5404 |
+| PASS | vmetrics | JennySans-Regular.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Regular.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Regular.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Regular.ttf: usWeightClass 400 기대 400 |
+| PASS | widthClass | JennySans-Regular.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-Regular.ttf: fsType 0 |
+| PASS | vendID | JennySans-Regular.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-Regular.ttf: panose [2, 11, 5, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/5/3) |
+| PASS | underline | JennySans-Regular.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-Regular.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Regular.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-Regular.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Regular.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-Regular.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Regular.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Regular.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Regular.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-Regular.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Regular.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-Regular.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Regular.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Regular.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Regular.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Regular.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Regular.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Regular.ttf: 대표 글립 20자 bbox·adv Pretendard-Regular.ttf 와 동일 |
+| INFO | orig | Pretendard-Regular.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -258/139 xAvg 1693 → ours xAvg 1734 |
+| INFO | bbox | JennySans-Regular.ttf: head bbox (-1234, -562, 5460, 2172) — yMax 2172 vs winAscent 1950, yMin -562 vs -winDescent -494 |
+| PASS | features | JennySans-Regular.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Regular.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Regular.ttf: 축 ['wght'], 값 [(3, 400.0, 'Regular', 2, 700.0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Regular.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Regular.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Regular.ttf: xAvgCharWidth 1734, usMaxContext 12, first/last 0x20/0xffee, strikeout 139/652, numGlyphs 13983, hhea.advanceWidthMax 5530 |
+| PASS | vmetrics | JennySans-Medium.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Medium.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Medium.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Medium.ttf: usWeightClass 500 기대 500 |
+| PASS | widthClass | JennySans-Medium.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-Medium.ttf: fsType 0 |
+| PASS | vendID | JennySans-Medium.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-Medium.ttf: panose [2, 11, 6, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/6/3) |
+| PASS | underline | JennySans-Medium.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-Medium.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Medium.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-Medium.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Medium.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-Medium.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Medium.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Medium.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Medium.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-Medium.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Medium.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-Medium.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Medium.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Medium.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Medium.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Medium.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Medium.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Medium.ttf: 대표 글립 20자 bbox·adv Pretendard-Medium.ttf 와 동일 |
+| INFO | orig | Pretendard-Medium.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -244/155 xAvg 1698 → ours xAvg 1737 |
+| INFO | bbox | JennySans-Medium.ttf: head bbox (-1138, -566, 5572, 2172) — yMax 2172 vs winAscent 1950, yMin -566 vs -winDescent -494 |
+| PASS | features | JennySans-Medium.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Medium.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Medium.ttf: 축 ['wght'], 값 [(1, 500.0, 'Medium', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Medium.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Medium.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Medium.ttf: xAvgCharWidth 1737, usMaxContext 12, first/last 0x20/0xffee, strikeout 155/652, numGlyphs 13983, hhea.advanceWidthMax 5638 |
+| PASS | vmetrics | JennySans-SemiBold.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-SemiBold.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-SemiBold.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-SemiBold.ttf: usWeightClass 600 기대 600 |
+| PASS | widthClass | JennySans-SemiBold.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-SemiBold.ttf: fsType 0 |
+| PASS | vendID | JennySans-SemiBold.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-SemiBold.ttf: panose [2, 11, 7, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/7/3) |
+| PASS | underline | JennySans-SemiBold.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-SemiBold.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-SemiBold.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-SemiBold.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-SemiBold.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-SemiBold.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-SemiBold.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-SemiBold.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-SemiBold.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-SemiBold.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-SemiBold.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-SemiBold.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-SemiBold.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-SemiBold.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-SemiBold.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-SemiBold.ttf: 대표 글립 20자 bbox·adv Pretendard-SemiBold.ttf 와 동일 |
+| INFO | orig | Pretendard-SemiBold.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -228/172 xAvg 1703 → ours xAvg 1742 |
+| INFO | bbox | JennySans-SemiBold.ttf: head bbox (-1040, -568, 5684, 2172) — yMax 2172 vs winAscent 1950, yMin -568 vs -winDescent -494 |
+| PASS | features | JennySans-SemiBold.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-SemiBold.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-SemiBold.ttf: 축 ['wght'], 값 [(1, 600.0, 'SemiBold', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-SemiBold.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-SemiBold.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-SemiBold.ttf: xAvgCharWidth 1742, usMaxContext 12, first/last 0x20/0xffee, strikeout 172/652, numGlyphs 13983, hhea.advanceWidthMax 5748 |
+| PASS | vmetrics | JennySans-Bold.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Bold.ttf: fsSelection 0x1A0 (USE_TYPO True, WWS True, REGULAR False, BOLD True, ITALIC False) 기대 0x1A0 |
+| PASS | macStyle | JennySans-Bold.ttf: macStyle 1 기대 1 |
+| PASS | weightClass | JennySans-Bold.ttf: usWeightClass 700 기대 700 |
+| PASS | widthClass | JennySans-Bold.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-Bold.ttf: fsType 0 |
+| PASS | vendID | JennySans-Bold.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-Bold.ttf: panose [2, 11, 8, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/8/3) |
+| PASS | underline | JennySans-Bold.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-Bold.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Bold.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-Bold.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Bold.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-Bold.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Bold.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Bold.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Bold.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-Bold.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Bold.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-Bold.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Bold.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Bold.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Bold.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Bold.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Bold.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Bold.ttf: 대표 글립 20자 bbox·adv Pretendard-Bold.ttf 와 동일 |
+| INFO | orig | Pretendard-Bold.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xA0 underline -214/188 xAvg 1708 → ours xAvg 1745 |
+| INFO | bbox | JennySans-Bold.ttf: head bbox (-1044, -570, 5798, 2172) — yMax 2172 vs winAscent 1950, yMin -570 vs -winDescent -494 |
+| PASS | features | JennySans-Bold.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Bold.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Bold.ttf: 축 ['wght'], 값 [(1, 700.0, 'Bold', 0)], ver 0x10002, fallback 'Bold' |
+| INFO | codepage | JennySans-Bold.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Bold.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Bold.ttf: xAvgCharWidth 1745, usMaxContext 12, first/last 0x20/0xffee, strikeout 188/652, numGlyphs 13983, hhea.advanceWidthMax 5858 |
+| PASS | vmetrics | JennySans-ExtraBold.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-ExtraBold.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-ExtraBold.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-ExtraBold.ttf: usWeightClass 800 기대 800 |
+| PASS | widthClass | JennySans-ExtraBold.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-ExtraBold.ttf: fsType 0 |
+| PASS | vendID | JennySans-ExtraBold.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-ExtraBold.ttf: panose [2, 11, 9, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/9/3) |
+| PASS | underline | JennySans-ExtraBold.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-ExtraBold.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-ExtraBold.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-ExtraBold.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-ExtraBold.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-ExtraBold.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-ExtraBold.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-ExtraBold.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-ExtraBold.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-ExtraBold.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-ExtraBold.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-ExtraBold.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-ExtraBold.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-ExtraBold.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraBold.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-ExtraBold.ttf: 대표 글립 20자 bbox·adv Pretendard-ExtraBold.ttf 와 동일 |
+| INFO | orig | Pretendard-ExtraBold.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -200/205 xAvg 1713 → ours xAvg 1749 |
+| INFO | bbox | JennySans-ExtraBold.ttf: head bbox (-1108, -574, 5912, 2172) — yMax 2172 vs winAscent 1950, yMin -574 vs -winDescent -494 |
+| PASS | features | JennySans-ExtraBold.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-ExtraBold.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-ExtraBold.ttf: 축 ['wght'], 값 [(1, 800.0, 'ExtraBold', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-ExtraBold.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-ExtraBold.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-ExtraBold.ttf: xAvgCharWidth 1749, usMaxContext 12, first/last 0x20/0xffee, strikeout 205/652, numGlyphs 13983, hhea.advanceWidthMax 5970 |
+| PASS | vmetrics | JennySans-Black.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Black.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Black.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Black.ttf: usWeightClass 900 기대 900 |
+| PASS | widthClass | JennySans-Black.ttf: usWidthClass 5 |
+| PASS | fsType | JennySans-Black.ttf: fsType 0 |
+| PASS | vendID | JennySans-Black.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySans-Black.ttf: panose [2, 11, 10, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/10/3) |
+| PASS | underline | JennySans-Black.ttf: underline (-258, 139) |
+| PASS | italic | JennySans-Black.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Black.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySans-Black.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Black.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySans-Black.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Black.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Black.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Black.ttf: DSIG 없음 |
+| PASS | glyf | JennySans-Black.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Black.ttf: gasp {65535: 15} |
+| PASS | tables | JennySans-Black.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Black.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Black.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Black.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Black.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Black.ttf: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Black.ttf: 대표 글립 20자 bbox·adv Pretendard-Black.ttf 와 동일 |
+| INFO | orig | Pretendard-Black.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -186/221 xAvg 1718 → ours xAvg 1752 |
+| INFO | bbox | JennySans-Black.ttf: head bbox (-1204, -576, 6026, 2186) — yMax 2186 vs winAscent 1950, yMin -576 vs -winDescent -494 |
+| PASS | features | JennySans-Black.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Black.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Black.ttf: 축 ['wght'], 값 [(1, 900.0, 'Black', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Black.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Black.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Black.ttf: xAvgCharWidth 1752, usMaxContext 12, first/last 0x20/0xffee, strikeout 221/652, numGlyphs 13983, hhea.advanceWidthMax 6080 |
+| PASS | vmetrics | JennySansVariable.ttf: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySansVariable.ttf: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySansVariable.ttf: macStyle 0 기대 0 |
+| PASS | weightClass | JennySansVariable.ttf: usWeightClass 400 기대 400 |
+| PASS | widthClass | JennySansVariable.ttf: usWidthClass 5 |
+| PASS | fsType | JennySansVariable.ttf: fsType 0 |
+| PASS | vendID | JennySansVariable.ttf: achVendID 'JNSF' |
+| PASS | panose | JennySansVariable.ttf: panose [2, 11, 5, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/5/3) |
+| PASS | underline | JennySansVariable.ttf: underline (-258, 139) |
+| PASS | italic | JennySansVariable.ttf: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySansVariable.ttf: head.flags 0x0003 |
+| PASS | fontRevision | JennySansVariable.ttf: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySansVariable.ttf: lowestRecPPEM 7 |
+| PASS | post | JennySansVariable.ttf: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySansVariable.ttf: OS/2 version 4 |
+| PASS | xh/cap | JennySansVariable.ttf: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySansVariable.ttf: DSIG 없음 |
+| PASS | glyf | JennySansVariable.ttf: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySansVariable.ttf: gasp {65535: 15} |
+| PASS | tables | JennySansVariable.ttf: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySansVariable.ttf: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'fvar', 'gasp', 'glyf', 'gvar', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySansVariable.ttf: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySansVariable.ttf: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.ttf: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.ttf: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.ttf: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.ttf: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.ttf: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.ttf: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySansVariable.ttf: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySansVariable.ttf: U+FFA0 adv 885 (기대 885) |
+| INFO | bbox | JennySansVariable.ttf: head bbox (-1234, -562, 5460, 2172) — yMax 2172 vs winAscent 1950, yMin -562 vs -winDescent -494 |
+| PASS | features | JennySansVariable.ttf: GSUB 45 + GPOS 4 = 49, 사라짐 ['rlig', 'ss16'] (허용 ['rlig', 'ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySansVariable.ttf: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySansVariable.ttf: 축 ['wght'], 값 9 [(1, 100.0, 'Thin', 0), (1, 200.0, 'ExtraLight', 0), (1, 300.0, 'Light', 0), (3, 400.0, 'Regular', 2, 700.0), (1, 500.0, 'Medium', 0), (1, 600.0, 'SemiBold', 0), (1, 700.0, 'Bold', 0), (1, 800.0, 'ExtraBold', 0), (1, 900.0, 'Black', 0)], ver 0x10002, fallback 'Regular' |
+| PASS | fvar | JennySansVariable.ttf: 축 [('wght', 100.0, 400.0, 900.0)] |
+| PASS | fvar | JennySansVariable.ttf: 인스턴스 [('Thin', 100.0, 'JennySansVariable-Thin'), ('ExtraLight', 200.0, 'JennySansVariable-ExtraLight'), ('Light', 300.0, 'JennySansVariable-Light'), ('Regular', 400.0, 'JennySansVariable-Regular'), ('Medium', 500.0, 'JennySansVariable-Medium'), ('SemiBold', 600.0, 'JennySansVariable-SemiBold'), ('Bold', 700.0, 'JennySansVariable-Bold'), ('ExtraBold', 800.0, 'JennySansVariable-ExtraBold'), ('Black', 900.0, 'JennySansVariable-Black')] |
+| INFO | fvar | JennySansVariable.ttf: avar 없음, gvar 글립 13983 |
+| INFO | codepage | JennySansVariable.ttf: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySansVariable.ttf: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySansVariable.ttf: xAvgCharWidth 1734, usMaxContext 12, first/last 0x20/0xffee, strikeout 139/652, numGlyphs 13983, hhea.advanceWidthMax 5530 |
+| PASS | vmetrics | JennySans-Thin.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Thin.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Thin.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Thin.woff2: usWeightClass 100 기대 100 |
+| PASS | widthClass | JennySans-Thin.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-Thin.woff2: fsType 0 |
+| PASS | vendID | JennySans-Thin.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-Thin.woff2: panose [2, 11, 2, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/2/3) |
+| PASS | underline | JennySans-Thin.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-Thin.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Thin.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-Thin.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Thin.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-Thin.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Thin.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Thin.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Thin.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-Thin.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Thin.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-Thin.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Thin.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Thin.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Thin.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Thin.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Thin.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Thin.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Thin.woff2: 대표 글립 20자 bbox·adv Pretendard-Thin.ttf 와 동일 |
+| INFO | orig | Pretendard-Thin.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -307/60 xAvg 1678 → ours xAvg 1726 |
+| INFO | bbox | JennySans-Thin.woff2: head bbox (-878, -552, 5122, 2062) — yMax 2062 vs winAscent 1950, yMin -552 vs -winDescent -494 |
+| PASS | features | JennySans-Thin.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Thin.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Thin.woff2: 축 ['wght'], 값 [(1, 100.0, 'Thin', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Thin.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Thin.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Thin.woff2: xAvgCharWidth 1726, usMaxContext 12, first/last 0x20/0xffee, strikeout 60/652, numGlyphs 13983, hhea.advanceWidthMax 5298 |
+| PASS | vmetrics | JennySans-ExtraLight.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-ExtraLight.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-ExtraLight.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-ExtraLight.woff2: usWeightClass 200 기대 200 |
+| PASS | widthClass | JennySans-ExtraLight.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-ExtraLight.woff2: fsType 0 |
+| PASS | vendID | JennySans-ExtraLight.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-ExtraLight.woff2: panose [2, 11, 3, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/3/3) |
+| PASS | underline | JennySans-ExtraLight.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-ExtraLight.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-ExtraLight.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-ExtraLight.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-ExtraLight.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-ExtraLight.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-ExtraLight.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-ExtraLight.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-ExtraLight.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-ExtraLight.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-ExtraLight.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-ExtraLight.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-ExtraLight.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-ExtraLight.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraLight.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-ExtraLight.woff2: 대표 글립 20자 bbox·adv Pretendard-ExtraLight.ttf 와 동일 |
+| INFO | orig | Pretendard-ExtraLight.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -291/86 xAvg 1683 → ours xAvg 1728 |
+| INFO | bbox | JennySans-ExtraLight.woff2: head bbox (-892, -554, 5200, 2070) — yMax 2070 vs winAscent 1950, yMin -554 vs -winDescent -494 |
+| PASS | features | JennySans-ExtraLight.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-ExtraLight.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-ExtraLight.woff2: 축 ['wght'], 값 [(1, 200.0, 'ExtraLight', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-ExtraLight.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-ExtraLight.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-ExtraLight.woff2: xAvgCharWidth 1728, usMaxContext 12, first/last 0x20/0xffee, strikeout 86/652, numGlyphs 13983, hhea.advanceWidthMax 5302 |
+| PASS | vmetrics | JennySans-Light.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Light.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Light.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Light.woff2: usWeightClass 300 기대 300 |
+| PASS | widthClass | JennySans-Light.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-Light.woff2: fsType 0 |
+| PASS | vendID | JennySans-Light.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-Light.woff2: panose [2, 11, 4, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/4/3) |
+| PASS | underline | JennySans-Light.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-Light.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Light.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-Light.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Light.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-Light.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Light.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Light.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Light.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-Light.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Light.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-Light.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Light.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Light.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Light.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Light.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Light.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Light.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Light.woff2: 대표 글립 20자 bbox·adv Pretendard-Light.ttf 와 동일 |
+| INFO | orig | Pretendard-Light.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -274/112 xAvg 1688 → ours xAvg 1731 |
+| INFO | bbox | JennySans-Light.woff2: head bbox (-922, -556, 5328, 2122) — yMax 2122 vs winAscent 1950, yMin -556 vs -winDescent -494 |
+| PASS | features | JennySans-Light.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Light.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Light.woff2: 축 ['wght'], 값 [(1, 300.0, 'Light', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Light.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Light.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Light.woff2: xAvgCharWidth 1731, usMaxContext 12, first/last 0x20/0xffee, strikeout 112/652, numGlyphs 13983, hhea.advanceWidthMax 5404 |
+| PASS | vmetrics | JennySans-Regular.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Regular.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Regular.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Regular.woff2: usWeightClass 400 기대 400 |
+| PASS | widthClass | JennySans-Regular.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-Regular.woff2: fsType 0 |
+| PASS | vendID | JennySans-Regular.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-Regular.woff2: panose [2, 11, 5, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/5/3) |
+| PASS | underline | JennySans-Regular.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-Regular.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Regular.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-Regular.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Regular.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-Regular.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Regular.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Regular.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Regular.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-Regular.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Regular.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-Regular.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Regular.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Regular.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Regular.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Regular.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Regular.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Regular.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Regular.woff2: 대표 글립 20자 bbox·adv Pretendard-Regular.ttf 와 동일 |
+| INFO | orig | Pretendard-Regular.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -258/139 xAvg 1693 → ours xAvg 1734 |
+| INFO | bbox | JennySans-Regular.woff2: head bbox (-1234, -562, 5460, 2172) — yMax 2172 vs winAscent 1950, yMin -562 vs -winDescent -494 |
+| PASS | features | JennySans-Regular.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Regular.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Regular.woff2: 축 ['wght'], 값 [(3, 400.0, 'Regular', 2, 700.0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Regular.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Regular.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Regular.woff2: xAvgCharWidth 1734, usMaxContext 12, first/last 0x20/0xffee, strikeout 139/652, numGlyphs 13983, hhea.advanceWidthMax 5530 |
+| PASS | vmetrics | JennySans-Medium.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Medium.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Medium.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Medium.woff2: usWeightClass 500 기대 500 |
+| PASS | widthClass | JennySans-Medium.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-Medium.woff2: fsType 0 |
+| PASS | vendID | JennySans-Medium.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-Medium.woff2: panose [2, 11, 6, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/6/3) |
+| PASS | underline | JennySans-Medium.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-Medium.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Medium.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-Medium.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Medium.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-Medium.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Medium.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Medium.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Medium.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-Medium.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Medium.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-Medium.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Medium.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Medium.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Medium.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Medium.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Medium.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Medium.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Medium.woff2: 대표 글립 20자 bbox·adv Pretendard-Medium.ttf 와 동일 |
+| INFO | orig | Pretendard-Medium.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -244/155 xAvg 1698 → ours xAvg 1737 |
+| INFO | bbox | JennySans-Medium.woff2: head bbox (-1138, -566, 5572, 2172) — yMax 2172 vs winAscent 1950, yMin -566 vs -winDescent -494 |
+| PASS | features | JennySans-Medium.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Medium.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Medium.woff2: 축 ['wght'], 값 [(1, 500.0, 'Medium', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Medium.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Medium.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Medium.woff2: xAvgCharWidth 1737, usMaxContext 12, first/last 0x20/0xffee, strikeout 155/652, numGlyphs 13983, hhea.advanceWidthMax 5638 |
+| PASS | vmetrics | JennySans-SemiBold.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-SemiBold.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-SemiBold.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-SemiBold.woff2: usWeightClass 600 기대 600 |
+| PASS | widthClass | JennySans-SemiBold.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-SemiBold.woff2: fsType 0 |
+| PASS | vendID | JennySans-SemiBold.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-SemiBold.woff2: panose [2, 11, 7, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/7/3) |
+| PASS | underline | JennySans-SemiBold.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-SemiBold.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-SemiBold.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-SemiBold.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-SemiBold.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-SemiBold.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-SemiBold.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-SemiBold.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-SemiBold.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-SemiBold.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-SemiBold.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-SemiBold.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-SemiBold.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-SemiBold.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-SemiBold.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-SemiBold.woff2: 대표 글립 20자 bbox·adv Pretendard-SemiBold.ttf 와 동일 |
+| INFO | orig | Pretendard-SemiBold.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -228/172 xAvg 1703 → ours xAvg 1742 |
+| INFO | bbox | JennySans-SemiBold.woff2: head bbox (-1040, -568, 5684, 2172) — yMax 2172 vs winAscent 1950, yMin -568 vs -winDescent -494 |
+| PASS | features | JennySans-SemiBold.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-SemiBold.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-SemiBold.woff2: 축 ['wght'], 값 [(1, 600.0, 'SemiBold', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-SemiBold.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-SemiBold.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-SemiBold.woff2: xAvgCharWidth 1742, usMaxContext 12, first/last 0x20/0xffee, strikeout 172/652, numGlyphs 13983, hhea.advanceWidthMax 5748 |
+| PASS | vmetrics | JennySans-Bold.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Bold.woff2: fsSelection 0x1A0 (USE_TYPO True, WWS True, REGULAR False, BOLD True, ITALIC False) 기대 0x1A0 |
+| PASS | macStyle | JennySans-Bold.woff2: macStyle 1 기대 1 |
+| PASS | weightClass | JennySans-Bold.woff2: usWeightClass 700 기대 700 |
+| PASS | widthClass | JennySans-Bold.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-Bold.woff2: fsType 0 |
+| PASS | vendID | JennySans-Bold.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-Bold.woff2: panose [2, 11, 8, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/8/3) |
+| PASS | underline | JennySans-Bold.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-Bold.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Bold.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-Bold.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Bold.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-Bold.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Bold.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Bold.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Bold.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-Bold.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Bold.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-Bold.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Bold.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Bold.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Bold.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Bold.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Bold.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Bold.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Bold.woff2: 대표 글립 20자 bbox·adv Pretendard-Bold.ttf 와 동일 |
+| INFO | orig | Pretendard-Bold.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xA0 underline -214/188 xAvg 1708 → ours xAvg 1745 |
+| INFO | bbox | JennySans-Bold.woff2: head bbox (-1044, -570, 5798, 2172) — yMax 2172 vs winAscent 1950, yMin -570 vs -winDescent -494 |
+| PASS | features | JennySans-Bold.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Bold.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Bold.woff2: 축 ['wght'], 값 [(1, 700.0, 'Bold', 0)], ver 0x10002, fallback 'Bold' |
+| INFO | codepage | JennySans-Bold.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Bold.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Bold.woff2: xAvgCharWidth 1745, usMaxContext 12, first/last 0x20/0xffee, strikeout 188/652, numGlyphs 13983, hhea.advanceWidthMax 5858 |
+| PASS | vmetrics | JennySans-ExtraBold.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-ExtraBold.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-ExtraBold.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-ExtraBold.woff2: usWeightClass 800 기대 800 |
+| PASS | widthClass | JennySans-ExtraBold.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-ExtraBold.woff2: fsType 0 |
+| PASS | vendID | JennySans-ExtraBold.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-ExtraBold.woff2: panose [2, 11, 9, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/9/3) |
+| PASS | underline | JennySans-ExtraBold.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-ExtraBold.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-ExtraBold.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-ExtraBold.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-ExtraBold.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-ExtraBold.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-ExtraBold.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-ExtraBold.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-ExtraBold.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-ExtraBold.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-ExtraBold.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-ExtraBold.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-ExtraBold.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-ExtraBold.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-ExtraBold.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-ExtraBold.woff2: 대표 글립 20자 bbox·adv Pretendard-ExtraBold.ttf 와 동일 |
+| INFO | orig | Pretendard-ExtraBold.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -200/205 xAvg 1713 → ours xAvg 1749 |
+| INFO | bbox | JennySans-ExtraBold.woff2: head bbox (-1108, -574, 5912, 2172) — yMax 2172 vs winAscent 1950, yMin -574 vs -winDescent -494 |
+| PASS | features | JennySans-ExtraBold.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-ExtraBold.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-ExtraBold.woff2: 축 ['wght'], 값 [(1, 800.0, 'ExtraBold', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-ExtraBold.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-ExtraBold.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-ExtraBold.woff2: xAvgCharWidth 1749, usMaxContext 12, first/last 0x20/0xffee, strikeout 205/652, numGlyphs 13983, hhea.advanceWidthMax 5970 |
+| PASS | vmetrics | JennySans-Black.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySans-Black.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySans-Black.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySans-Black.woff2: usWeightClass 900 기대 900 |
+| PASS | widthClass | JennySans-Black.woff2: usWidthClass 5 |
+| PASS | fsType | JennySans-Black.woff2: fsType 0 |
+| PASS | vendID | JennySans-Black.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySans-Black.woff2: panose [2, 11, 10, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/10/3) |
+| PASS | underline | JennySans-Black.woff2: underline (-258, 139) |
+| PASS | italic | JennySans-Black.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySans-Black.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySans-Black.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySans-Black.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySans-Black.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySans-Black.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySans-Black.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySans-Black.woff2: DSIG 없음 |
+| PASS | glyf | JennySans-Black.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySans-Black.woff2: gasp {65535: 15} |
+| PASS | tables | JennySans-Black.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySans-Black.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'gasp', 'glyf', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySans-Black.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySans-Black.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySans-Black.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Black.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySans-Black.woff2: U+FFA0 adv 885 (기대 885) |
+| PASS | bbox=orig | JennySans-Black.woff2: 대표 글립 20자 bbox·adv Pretendard-Black.ttf 와 동일 |
+| INFO | orig | Pretendard-Black.ttf: typo 1949/-494/0 win 1949/494 hhea 1950/-494 fsSel 0xC0 underline -186/221 xAvg 1718 → ours xAvg 1752 |
+| INFO | bbox | JennySans-Black.woff2: head bbox (-1204, -576, 6026, 2186) — yMax 2186 vs winAscent 1950, yMin -576 vs -winDescent -494 |
+| PASS | features | JennySans-Black.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['ss16'] (허용 ['ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySans-Black.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySans-Black.woff2: 축 ['wght'], 값 [(1, 900.0, 'Black', 0)], ver 0x10002, fallback 'Regular' |
+| INFO | codepage | JennySans-Black.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySans-Black.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySans-Black.woff2: xAvgCharWidth 1752, usMaxContext 12, first/last 0x20/0xffee, strikeout 221/652, numGlyphs 13983, hhea.advanceWidthMax 6080 |
+| PASS | vmetrics | JennySansVariable.woff2: UPM/typo/hhea/win = (2048, 1950, -494, 0, 1950, -494, 0, 1950, 494) |
+| PASS | fsSelection | JennySansVariable.woff2: fsSelection 0x1C0 (USE_TYPO True, WWS True, REGULAR True, BOLD False, ITALIC False) 기대 0x1C0 |
+| PASS | macStyle | JennySansVariable.woff2: macStyle 0 기대 0 |
+| PASS | weightClass | JennySansVariable.woff2: usWeightClass 400 기대 400 |
+| PASS | widthClass | JennySansVariable.woff2: usWidthClass 5 |
+| PASS | fsType | JennySansVariable.woff2: fsType 0 |
+| PASS | vendID | JennySansVariable.woff2: achVendID 'JNSF' |
+| PASS | panose | JennySansVariable.woff2: panose [2, 11, 5, 3, 0, 0, 0, 2, 0, 4] (기대 2/11/5/3) |
+| PASS | underline | JennySansVariable.woff2: underline (-258, 139) |
+| PASS | italic | JennySansVariable.woff2: italicAngle 0.0, caret 1/0/0 |
+| PASS | head.flags | JennySansVariable.woff2: head.flags 0x0803 (WOFF2 해제 시 bit11 부가 — TTF 0x0003 과 동등) |
+| PASS | fontRevision | JennySansVariable.woff2: head.fontRevision 1.001007080078125 |
+| PASS | lowestRecPPEM | JennySansVariable.woff2: lowestRecPPEM 7 |
+| PASS | post | JennySansVariable.woff2: post format 2.0, isFixedPitch 0 |
+| PASS | os2.version | JennySansVariable.woff2: OS/2 version 4 |
+| PASS | xh/cap | JennySansVariable.woff2: sxHeight 1086 sCapHeight 1448 |
+| PASS | DSIG | JennySansVariable.woff2: DSIG 없음 |
+| PASS | glyf | JennySansVariable.woff2: glyf/loca (True, True), CFF False |
+| PASS | gasp | JennySansVariable.woff2: gasp {65535: 15} |
+| PASS | tables | JennySansVariable.woff2: prep 존재 — 티켓 4(smart dropout) 대응으로 의도된 추가 |
+| INFO | tables | JennySansVariable.woff2: 테이블 ['GDEF', 'GPOS', 'GSUB', 'GlyphOrder', 'OS/2', 'STAT', 'cmap', 'fvar', 'gasp', 'glyf', 'gvar', 'head', 'hhea', 'hmtx', 'loca', 'maxp', 'meta', 'name', 'post', 'prep'] |
+| PASS | meta | JennySansVariable.woff2: meta 있음 {'dlng': 'Kore, Latn', 'slng': 'Kore, Latn, Grek, Cyrl'} |
+| PASS | hangul-adv | JennySansVariable.woff2: 음절 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.woff2: 호환자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.woff2: 첫가끝자모 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.woff2: 자모확장A adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.woff2: 자모확장B adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.woff2: 괘선 adv 집합 [1770] (기대 {1770}) |
+| PASS | hangul-adv | JennySansVariable.woff2: U+302E adv 481 (기대 481) |
+| PASS | hangul-adv | JennySansVariable.woff2: U+302F adv 481 (기대 481) |
+| PASS | hangul-adv | JennySansVariable.woff2: U+FFA0 adv 885 (기대 885) |
+| INFO | bbox | JennySansVariable.woff2: head bbox (-1234, -562, 5460, 2172) — yMax 2172 vs winAscent 1950, yMin -562 vs -winDescent -494 |
+| PASS | features | JennySansVariable.woff2: GSUB 45 + GPOS 4 = 49, 사라짐 ['rlig', 'ss16'] (허용 ['rlig', 'ss16']), 추가 [], 빈 피처 [] |
+| INFO | scripts | JennySansVariable.woff2: GSUB 스크립트 {'DFLT': [], 'latn': ['CAT ', 'ROM ']} |
+| PASS | STAT | JennySansVariable.woff2: 축 ['wght'], 값 9 [(1, 100.0, 'Thin', 0), (1, 200.0, 'ExtraLight', 0), (1, 300.0, 'Light', 0), (3, 400.0, 'Regular', 2, 700.0), (1, 500.0, 'Medium', 0), (1, 600.0, 'SemiBold', 0), (1, 700.0, 'Bold', 0), (1, 800.0, 'ExtraBold', 0), (1, 900.0, 'Black', 0)], ver 0x10002, fallback 'Regular' |
+| PASS | fvar | JennySansVariable.woff2: 축 [('wght', 100.0, 400.0, 900.0)] |
+| PASS | fvar | JennySansVariable.woff2: 인스턴스 [('Thin', 100.0, 'JennySansVariable-Thin'), ('ExtraLight', 200.0, 'JennySansVariable-ExtraLight'), ('Light', 300.0, 'JennySansVariable-Light'), ('Regular', 400.0, 'JennySansVariable-Regular'), ('Medium', 500.0, 'JennySansVariable-Medium'), ('SemiBold', 600.0, 'JennySansVariable-SemiBold'), ('Bold', 700.0, 'JennySansVariable-Bold'), ('ExtraBold', 800.0, 'JennySansVariable-ExtraBold'), ('Black', 900.0, 'JennySansVariable-Black')] |
+| INFO | fvar | JennySansVariable.woff2: avar 없음, gvar 글립 13983 |
+| INFO | codepage | JennySansVariable.woff2: ulCodePageRange1 0x2028009F / 2 0x00000000; ulUnicodeRange 0xB00002EF 0x01D5FCFB 0x00000010 0x00000000 |
+| PASS | codepage | JennySansVariable.woff2: ulCodePageRange1 == 0x2028009F(spec 03 §4) |
+| INFO | misc | JennySansVariable.woff2: xAvgCharWidth 1734, usMaxContext 12, first/last 0x20/0xffee, strikeout 139/652, numGlyphs 13983, hhea.advanceWidthMax 5530 |
+| PASS | identity | 20 파일 메트릭 튜플 전부 동일 ((2048, 1950, -494, 0, 1950, -494, 0, 1950, 494), (-258, 139), 2048) |

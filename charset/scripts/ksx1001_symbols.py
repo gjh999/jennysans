@@ -1,0 +1,149 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+KS X 1001 (KS C 5601) 기호 영역(행 1~12, EUC-KR 0xA1A1–0xACFE)을 Python codecs 로
+실제 디코딩해 유니코드 코드포인트를 뽑는다. charset/required.txt 의 한국 문서용 기호 근거.
+
+실행: PYTHONUTF8=1 python charset/scripts/ksx1001_symbols.py [--codec euc_kr|cp949] [--out 경로]
+
+출력:
+  - 표준출력: 행(row)별 요약(디코딩 성공 수, 코드포인트 범위, 유니코드 블록별 수)
+  - --out 지정 시: 코드포인트 전체 목록을 `U+XXXX  # <문자> <유니코드 이름> [KS row/col]` 형식으로 저장
+    (charset/required.txt 에 그대로 붙여 넣을 수 있는 형식)
+
+참고: KS X 1001 행 1~12 = 기호·구두점·괘선·단위·원문자·괄호문자·로마숫자·그리스·키릴·히라가나·가타카나.
+      행 4 = 한글 호환 자모(U+3131–318E), 행 10·11 = 히라가나·가타카나(JennySans 범위 밖), 행 12 = 키릴.
+      euc_kr 과 cp949 는 이 영역에서 동일하다(cp949 는 0x8141~ 확장 한글만 추가).
+"""
+import argparse
+import codecs
+import sys
+import unicodedata
+from collections import OrderedDict
+
+ROW_LABEL = {
+    1: "행1 구두점·수학·특수기호",
+    2: "행2 괄호·화살표·기호·전각",
+    3: "행3 전각 ASCII(FF01–FF5E, ￦)",
+    4: "행4 한글 호환 자모(3131–318E)",
+    5: "행5 로마숫자·그리스",
+    6: "행6 괘선(박스 드로잉)",
+    7: "행7 단위 기호(㎏㎡ 등)·기타",
+    8: "행8 원문자·괄호문자(ⓐ ㈀ ㉠ 등)·분수·상첨자",
+    9: "행9 원숫자·괄호숫자·단위",
+    10: "행10 히라가나(범위 밖)",
+    11: "행11 가타카나(범위 밖)",
+    12: "행12 키릴",
+}
+
+
+def block_of(cp):
+    """유니코드 블록 이름(대략) — 요약용."""
+    blocks = [
+        (0x0000, 0x007F, "Basic Latin"),
+        (0x0080, 0x00FF, "Latin-1 Supplement"),
+        (0x0100, 0x017F, "Latin Extended-A"),
+        (0x0180, 0x024F, "Latin Extended-B"),
+        (0x02B0, 0x02FF, "Spacing Modifier Letters"),
+        (0x0370, 0x03FF, "Greek and Coptic"),
+        (0x0400, 0x04FF, "Cyrillic"),
+        (0x2000, 0x206F, "General Punctuation"),
+        (0x2070, 0x209F, "Superscripts and Subscripts"),
+        (0x20A0, 0x20CF, "Currency Symbols"),
+        (0x2100, 0x214F, "Letterlike Symbols"),
+        (0x2150, 0x218F, "Number Forms"),
+        (0x2190, 0x21FF, "Arrows"),
+        (0x2200, 0x22FF, "Mathematical Operators"),
+        (0x2300, 0x23FF, "Miscellaneous Technical"),
+        (0x2460, 0x24FF, "Enclosed Alphanumerics"),
+        (0x2500, 0x257F, "Box Drawing"),
+        (0x2580, 0x259F, "Block Elements"),
+        (0x25A0, 0x25FF, "Geometric Shapes"),
+        (0x2600, 0x26FF, "Miscellaneous Symbols"),
+        (0x2700, 0x27BF, "Dingbats"),
+        (0x3000, 0x303F, "CJK Symbols and Punctuation"),
+        (0x3040, 0x309F, "Hiragana"),
+        (0x30A0, 0x30FF, "Katakana"),
+        (0x3130, 0x318F, "Hangul Compatibility Jamo"),
+        (0x3200, 0x32FF, "Enclosed CJK Letters and Months"),
+        (0x3300, 0x33FF, "CJK Compatibility"),
+        (0x4E00, 0x9FFF, "CJK Unified Ideographs"),
+        (0xAC00, 0xD7AF, "Hangul Syllables"),
+        (0xE000, 0xF8FF, "Private Use Area"),
+        (0xFF00, 0xFFEF, "Halfwidth and Fullwidth Forms"),
+    ]
+    for lo, hi, name in blocks:
+        if lo <= cp <= hi:
+            return name
+    return "Other"
+
+
+def decode_rows(codec, first_row=1, last_row=12):
+    """행 first_row..last_row 의 94×94 셀을 디코딩. 반환: [(row, col, cp)]"""
+    result = []
+    fails = []
+    for row in range(first_row, last_row + 1):
+        lead = 0xA0 + row
+        for col in range(1, 95):
+            trail = 0xA0 + col
+            b = bytes([lead, trail])
+            try:
+                s = b.decode(codec)
+            except UnicodeDecodeError:
+                fails.append((row, col, b))
+                continue
+            if len(s) != 1:
+                fails.append((row, col, b))
+                continue
+            result.append((row, col, ord(s)))
+    return result, fails
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--codec", default="euc_kr", choices=["euc_kr", "cp949"])
+    ap.add_argument("--first-row", type=int, default=1)
+    ap.add_argument("--last-row", type=int, default=12)
+    ap.add_argument("--out", help="코드포인트 목록 저장 경로(U+XXXX  # … 형식)")
+    args = ap.parse_args()
+
+    decoded, fails = decode_rows(args.codec, args.first_row, args.last_row)
+
+    print(f"codec={args.codec}  rows {args.first_row}..{args.last_row}  decoded={len(decoded)}  undefined_cells={len(fails)}")
+    print()
+    per_row = OrderedDict()
+    for row, col, cp in decoded:
+        per_row.setdefault(row, []).append((col, cp))
+    for row, cells in per_row.items():
+        cps = [cp for _, cp in cells]
+        blocks = OrderedDict()
+        for cp in cps:
+            blocks[block_of(cp)] = blocks.get(block_of(cp), 0) + 1
+        bl = ", ".join(f"{k}={v}" for k, v in blocks.items())
+        print(f"  {ROW_LABEL.get(row, f'행{row}')}: {len(cps)}자  min=U+{min(cps):04X} max=U+{max(cps):04X}")
+        print(f"      blocks: {bl}")
+    print()
+    print("전체 블록별 집계:")
+    total_blocks = OrderedDict()
+    for _, _, cp in decoded:
+        total_blocks[block_of(cp)] = total_blocks.get(block_of(cp), 0) + 1
+    for k, v in sorted(total_blocks.items(), key=lambda kv: -kv[1]):
+        print(f"  {k:36s} {v}")
+
+    if args.out:
+        with open(args.out, "w", encoding="utf-8") as f:
+            f.write(f"# KS X 1001 rows {args.first_row}-{args.last_row} decoded with Python codecs '{args.codec}'\n")
+            f.write(f"# generated by charset/scripts/ksx1001_symbols.py — {len(decoded)} code points\n")
+            cur_row = None
+            for row, col, cp in decoded:
+                if row != cur_row:
+                    cur_row = row
+                    f.write(f"\n# ---- {ROW_LABEL.get(row, f'행{row}')} ----\n")
+                ch = chr(cp)
+                name = unicodedata.name(ch, "<no name>")
+                f.write(f"U+{cp:04X}  # {ch} {name} [KS {row}/{col}]\n")
+        print(f"\nwrote {args.out}")
+
+
+if __name__ == "__main__":
+    main()

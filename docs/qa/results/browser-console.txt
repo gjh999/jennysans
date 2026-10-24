@@ -1,0 +1,36 @@
+[INFO] server: http.server 8765 기동 (root <repo>)
+[INFO] env: Chromium 151.0.7922.34
+[PASS] test.html: mode=static: faces 9/loaded 9, check() 실패 [], 폰트 요청 9개 6,538,676 B, 콘솔 오류 0 [] → docs\qa\shots\browser-static.png
+[INFO] test.html: mode=static 상태줄: mode=static · faces declared=9 loaded=9 · 100:ok 200:ok 300:ok 400:ok 500:ok 600:ok 700:ok 800:ok 900:ok
+[PASS] test.html: mode=variable: faces 1/loaded 1, check() 실패 [], 폰트 요청 10개 8,778,148 B, 콘솔 오류 0 [] → docs\qa\shots\browser-variable.png
+[INFO] test.html: mode=variable 상태줄: mode=variable · faces declared=1 loaded=1 · 100:ok 200:ok 300:ok 400:ok 500:ok 600:ok 700:ok 800:ok 900:ok
+[PASS] test.html: mode=subset: faces 891/loaded 287, check() 실패 [], 폰트 요청 296개 9,633,836 B, 콘솔 오류 0 [] → docs\qa\shots\browser-subset.png
+[INFO] test.html: mode=subset 상태줄: mode=subset · faces declared=891 loaded=287 · 100:ok 200:ok 300:ok 400:ok 500:ok 600:ok 700:ok 800:ok 900:ok
+[PASS] test.html: mode=variable-subset: faces 99/loaded 46, check() 실패 [], 폰트 요청 46개 1,426,560 B, 콘솔 오류 0 [] → docs\qa\shots\browser-variable-subset.png
+[INFO] test.html: mode=variable-subset 상태줄: mode=variable-subset · faces declared=99 loaded=46 · 100:ok 200:ok 300:ok 400:ok 500:ok 600:ok 700:ok 800:ok 900:ok
+[INFO] page: page-A static: 요청 2, 1,482,480 B, 오류 0 []
+[INFO] page: page-A static 파일: [('JennySans-Bold.woff2', 756448), ('JennySans-Regular.woff2', 726032)]
+[INFO] page: page-A variable: 요청 1, 2,239,472 B, 오류 0 []
+[INFO] page: page-A variable 파일: [('JennySansVariable.woff2', 2239472)]
+[PASS] page: page-A subset: 요청 2, 62,300 B (목표 ≤70 KB, ≤2 요청) 오류 0
+[INFO] page: page-A subset 파일: [('JennySans-Bold.subset.123.woff2', 31156), ('JennySans-Regular.subset.123.woff2', 31144)]
+[INFO] page: page-A variable-subset: 요청 1, 69,304 B, 오류 0 []
+[INFO] page: page-A variable-subset 파일: [('JennySansVariable.subset.123.woff2', 69304)]
+[INFO] page: page-B static: 요청 2, 1,482,480 B, 오류 0 []
+[INFO] page: page-B static 파일: [('JennySans-Bold.woff2', 756448), ('JennySans-Regular.woff2', 726032)]
+[INFO] page: page-B variable: 요청 1, 2,239,472 B, 오류 0 []
+[INFO] page: page-B variable 파일: [('JennySansVariable.woff2', 2239472)]
+[PASS] page: page-B subset: 요청 24, 279,352 B (목표 ≤300 KB, ≤30 요청) 오류 0
+[INFO] page: page-B subset 파일: [('JennySans-Bold.subset.118.woff2', 9348), ('JennySans-Regular.subset.118.woff2', 9332), ('JennySans-Bold.subset.119.woff2', 3044), ('JennySans-Bold.subset.117.woff2', 9460), ('JennySans-Bold.subset.123.woff2', 31156), ('JennySans-Bold.subset.114.woff2', 10248), ('JennySans-Bold.subset.108.woff2', 11500), ('JennySans-Regular.subset.123.woff2', 31144), ('JennySans-Regular.subset.116.woff2', 9840), ('JennySans-Regular.subset.114.woff2', 10324), ('JennySans-Regular.subset.113.woff2', 10372), ('JennySans-Regular.subset.117.woff2', 9468), ('JennySans-Regular.subset.119.woff2', 2988), ('JennySans-Regular.subset.115.woff2', 10052), ('JennySans-Regular.subset.107.woff2', 11488), ('JennySans-Regular.subset.110.woff2', 10936), ('JennySans-Regular.subset.111.woff2', 10672), ('JennySans-Regular.subset.63.woff2', 13284), ('JennySans-Regular.subset.108.woff2', 11492), ('JennySans-Regular.subset.112.woff2', 10244), ('JennySans-Regular.subset.109.woff2', 10676), ('JennySans-Regular.subset.106.woff2', 9660), ('JennySans-Bold.subset.116.woff2', 9756), ('JennySans-Regular.subset.122.woff2', 12868)]
+[INFO] page: page-B variable-subset: 요청 17, 468,660 B, 오류 0 []
+[INFO] page: page-B variable-subset 파일: [('JennySansVariable.subset.123.woff2', 69304), ('JennySansVariable.subset.119.woff2', 5200), ('JennySansVariable.subset.114.woff2', 25392), ('JennySansVariable.subset.118.woff2', 21120), ('JennySansVariable.subset.108.woff2', 28380), ('JennySansVariable.subset.117.woff2', 22008), ('JennySansVariable.subset.116.woff2', 23404), ('JennySansVariable.subset.110.woff2', 25872), ('JennySansVariable.subset.111.woff2', 25840), ('JennySansVariable.subset.113.woff2', 25204), ('JennySansVariable.subset.107.woff2', 28936), ('JennySansVariable.subset.63.woff2', 35380), ('JennySansVariable.subset.115.woff2', 23880), ('JennySansVariable.subset.106.woff2', 25092), ('JennySansVariable.subset.112.woff2', 24696), ('JennySansVariable.subset.109.woff2', 26216), ('JennySansVariable.subset.122.woff2', 32736)]
+[INFO] page: page-C static: 요청 1, 726,032 B, 오류 0 []
+[INFO] page: page-C static 파일: [('JennySans-Regular.woff2', 726032)]
+[INFO] page: page-C variable: 요청 1, 2,239,472 B, 오류 0 []
+[INFO] page: page-C variable 파일: [('JennySansVariable.woff2', 2239472)]
+[PASS] page: page-C subset: 요청 27, 310,232 B (목표 ≤400 KB) 오류 0
+[INFO] page: page-C subset 파일: [('JennySans-Regular.subset.117.woff2', 9468), ('JennySans-Regular.subset.110.woff2', 10936), ('JennySans-Regular.subset.119.woff2', 2988), ('JennySans-Regular.subset.118.woff2', 9332), ('JennySans-Regular.subset.116.woff2', 9840), ('JennySans-Regular.subset.114.woff2', 10324), ('JennySans-Regular.subset.123.woff2', 31144), ('JennySans-Regular.subset.115.woff2', 10052), ('JennySans-Regular.subset.109.woff2', 10676), ('JennySans-Regular.subset.107.woff2', 11488), ('JennySans-Regular.subset.113.woff2', 10372), ('JennySans-Regular.subset.111.woff2', 10672), ('JennySans-Regular.subset.112.woff2', 10244), ('JennySans-Regular.subset.2.woff2', 12236), ('JennySans-Regular.subset.39.woff2', 13432), ('JennySans-Regular.subset.106.woff2', 9660), ('JennySans-Regular.subset.50.woff2', 13108), ('JennySans-Regular.subset.97.woff2', 18540), ('JennySans-Regular.subset.108.woff2', 11492), ('JennySans-Regular.subset.94.woff2', 10960), ('JennySans-Regular.subset.105.woff2', 9960), ('JennySans-Regular.subset.93.woff2', 5428), ('JennySans-Regular.subset.63.woff2', 13284), ('JennySans-Regular.subset.104.woff2', 9444), ('JennySans-Regular.subset.102.woff2', 8968), ('JennySans-Regular.subset.58.woff2', 13420), ('JennySans-Regular.subset.54.woff2', 12764)]
+[INFO] page: page-C variable-subset: 요청 27, 825,348 B, 오류 0 []
+[INFO] page: page-C variable-subset 파일: [('JennySansVariable.subset.123.woff2', 69304), ('JennySansVariable.subset.119.woff2', 5200), ('JennySansVariable.subset.114.woff2', 25392), ('JennySansVariable.subset.118.woff2', 21120), ('JennySansVariable.subset.117.woff2', 22008), ('JennySansVariable.subset.110.woff2', 25872), ('JennySansVariable.subset.116.woff2', 23404), ('JennySansVariable.subset.111.woff2', 25840), ('JennySansVariable.subset.113.woff2', 25204), ('JennySansVariable.subset.115.woff2', 23880), ('JennySansVariable.subset.112.woff2', 24696), ('JennySansVariable.subset.109.woff2', 26216), ('JennySansVariable.subset.107.woff2', 28936), ('JennySansVariable.subset.106.woff2', 25092), ('JennySansVariable.subset.39.woff2', 35400), ('JennySansVariable.subset.50.woff2', 36404), ('JennySansVariable.subset.2.woff2', 32488), ('JennySansVariable.subset.108.woff2', 28380), ('JennySansVariable.subset.97.woff2', 71916), ('JennySansVariable.subset.63.woff2', 35380), ('JennySansVariable.subset.93.woff2', 11720), ('JennySansVariable.subset.94.woff2', 61972), ('JennySansVariable.subset.105.woff2', 24612), ('JennySansVariable.subset.104.woff2', 22560), ('JennySansVariable.subset.102.woff2', 20500), ('JennySansVariable.subset.58.woff2', 36608), ('JennySansVariable.subset.54.woff2', 35244)]
+
+== PASS → <repo>\docs\qa\results\browser.md

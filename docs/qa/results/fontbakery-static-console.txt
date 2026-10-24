@@ -1,0 +1,1892 @@
+%USERPROFILE%\AppData\Local\Programs\Python\Python312\Lib\site-packages\fontbakery\fonts_profile.py:103: UserWarning: Failed to load fontbakery.checks.vendorspecific.googlefonts.glyphsets.shape_languages: No module named 'glyphsets'
+  warnings.warn("Failed to load %s: %s" % (import_path, e))
+Start ... running 1047 individual check executions.
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-Bold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-Black.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-ExtraBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-ExtraLight.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-Light.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-Medium.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-Regular.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-SemiBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> opentype/gdef_mark_chars
+    Check mark characters are in GDEF mark glyph class.
+    with JennySans-Thin.ttf
+
+    Rationale:                                                                
+                                                                               
+    Mark characters should be in the GDEF mark glyph class.                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/2877
+
+    WARN The following mark characters could be in the GDEF mark glyph class:  
+         gravecomb (U+0300), uni0306 (U+0306) and uni0327 (U+0327) [code:      
+         mark-chars]                                                           
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-Black.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-Bold.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-ExtraBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-ExtraLight.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-Light.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-Medium.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-Regular.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-SemiBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> cjk_chws_feature
+    Does the font contain chws and vchw features?
+    with JennySans-Thin.ttf
+
+    Rationale:                                                                
+                                                                               
+    The W3C recommends the addition of chws and vchw features to CJK fonts to  
+    enhance the spacing of glyphs in environments which do not fully support   
+    JLREQ layout rules.                                                        
+                                                                               
+    The chws_tool utility (https://github.com/googlefonts/chws_tool) can be    
+    used to add these features automatically.                                  
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3363
+
+    WARN chws feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-chws-feature]                                                 
+    WARN vchw feature not found in font. Use chws_tool                         
+         (https://github.com/googlefonts/chws_tool) to add it. [code:          
+         missing-vchw-feature]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-Black.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni044A   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni044A   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-Bold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni044A   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni044A   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-ExtraBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-ExtraLight.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-Light.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-Medium.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-Regular.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni044A   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni044A   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-SemiBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni0459   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> contour_count
+    Check if each glyph has the recommended amount of contours.
+    with JennySans-Thin.ttf
+
+    Rationale:                                                                
+                                                                               
+    Visually QAing thousands of glyphs by hand is tiring. Most glyphs can      
+    only be constructured in a handful of ways. This means a glyph's contour   
+    count will only differ slightly amongst different fonts, e.g a 'g' could   
+    either be 2 or 3 contours, depending on whether its double story or        
+    single story.                                                              
+                                                                               
+    However, a quotedbl should have 2 contours, unless the font belongs to a   
+    display family.                                                            
+                                                                               
+    This check currently does not cover variable fonts because there's plenty  
+    of alternative ways of constructing glyphs with multiple outlines for      
+    each feature in a VarFont. The expected contour count data for this check  
+    is currently optimized for the typical construction of glyphs in static    
+    fonts.                                                                     
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN This check inspects the glyph outlines and detects the total number   
+         of contours in each of them. The expected values are infered from     
+         the typical ammounts of contours observed in a large collection of    
+         reference font families. The divergences listed below may simply      
+         indicate a significantly different design on some of your glyphs. On  
+         the other hand, some of these may flag actual bugs in the font such   
+         as glyphs mapped to an incorrect codepoint. Please consider           
+         reviewing the design and codepoint assignment of these to make sure   
+         they are correct.                                                     
+                                                                               
+         The following glyphs do not have the recommended number of contours:  
+                                                                               
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+          - Glyph name: uni00AD   Contours detected: 1    Expected: 0          
+                                                                               
+          - Glyph name: uni030B   Contours detected: 1    Expected: 2          
+                                                                               
+          - Glyph name: uni25CC   Contours detected: 19   Expected: 16 or 12   
+                                                                               
+          - Glyph name: uni2611   Contours detected: 3    Expected: 2          
+                                                                               
+                                                                               
+         [code: contour-count]                                                 
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-Black.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.4Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-Bold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.4Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-ExtraBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.4Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-ExtraLight.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.5Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-Light.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.5Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-Medium.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.5Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-Regular.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.5Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-SemiBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.4Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> file_size
+    Ensure files are not too large.
+    with JennySans-Thin.ttf
+
+    Rationale:                                                                
+                                                                               
+    Serving extremely large font files causes usability issues. This check     
+    ensures that file sizes are reasonable.                                    
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3320
+
+    WARN Font file is 2.6Mb; ideally it should be less than 1.0Mb [code:       
+         large-font]                                                           
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-Black.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1374 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 1198: logicalnot                                              
+                                                                               
+         Width = 1468: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1387: uni2213, uni2261, uni2262                               
+                                                                               
+         Width = 1598: uni221D                                                 
+                                                                               
+         Width = 1404: uni221F                                                 
+                                                                               
+         Width = 1539: uni2273, uni2220, uni2272                               
+                                                                               
+         Width = 1319: uni2237                                                 
+                                                                               
+         Width = 1775: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1424: uni2243, uni2245                                        
+                                                                               
+         Width = 1530: uni2266, uni2267                                        
+                                                                               
+         Width = 1518: uni226F, uni226E                                        
+                                                                               
+         Width = 1546: uni2277, uni2276                                        
+                                                                               
+         Width = 1577: uni22A5                                                 
+                                                                               
+         Width = 1521: uni22DB, uni22DA                                        
+                                                                               
+         Width = 1860: uni3012 [code: width-outliers]                          
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-Bold.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1338 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 1138: logicalnot                                              
+                                                                               
+         Width = 1439: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1378: uni2213, uni2261, uni2262                               
+                                                                               
+         Width = 1560: uni221D                                                 
+                                                                               
+         Width = 1380: uni221F                                                 
+                                                                               
+         Width = 1501: uni2273, uni2220, uni2272                               
+                                                                               
+         Width = 1305: uni2237                                                 
+                                                                               
+         Width = 1732: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1410: uni2243, uni2245                                        
+                                                                               
+         Width = 1495: uni2266, uni2267                                        
+                                                                               
+         Width = 1491: uni226F, uni226E                                        
+                                                                               
+         Width = 1518: uni2277, uni2276                                        
+                                                                               
+         Width = 1530: uni22A5                                                 
+                                                                               
+         Width = 1494: uni22DB, uni22DA                                        
+                                                                               
+         Width = 1610: uni3012 [code: width-outliers]                          
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-ExtraBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1356 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 1168: logicalnot                                              
+                                                                               
+         Width = 1452: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1383: uni2213                                                 
+                                                                               
+         Width = 1577: uni221D                                                 
+                                                                               
+         Width = 1391: uni221F                                                 
+                                                                               
+         Width = 1518: uni2220                                                 
+                                                                               
+         Width = 1313: uni2237                                                 
+                                                                               
+         Width = 1751: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1417: uni2243, uni2245                                        
+                                                                               
+         Width = 1380: uni2261, uni2262                                        
+                                                                               
+         Width = 1511: uni2266, uni2267                                        
+                                                                               
+         Width = 1503: uni226F, uni226E                                        
+                                                                               
+         Width = 1520: uni2273, uni2272                                        
+                                                                               
+         Width = 1530: uni2277, uni2276                                        
+                                                                               
+         Width = 1552: uni22A5                                                 
+                                                                               
+         Width = 1506: uni22DB, uni22DA                                        
+                                                                               
+         Width = 1736: uni3012 [code: width-outliers]                          
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-ExtraLight.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1250 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 992: logicalnot                                               
+                                                                               
+         Width = 1390: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1391: uni2213                                                 
+                                                                               
+         Width = 1483: uni221D                                                 
+                                                                               
+         Width = 1340: uni221F                                                 
+                                                                               
+         Width = 1423: uni2220                                                 
+                                                                               
+         Width = 1299: uni2237                                                 
+                                                                               
+         Width = 1647: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1404: uni2243, uni2245                                        
+                                                                               
+         Width = 1382: uni2261, uni2262                                        
+                                                                               
+         Width = 1429: uni2266, uni2267                                        
+                                                                               
+         Width = 1450: uni226F, uni226E                                        
+                                                                               
+         Width = 1425: uni2273, uni2272                                        
+                                                                               
+         Width = 1470: uni2277, uni2276                                        
+                                                                               
+         Width = 1432: uni22A5                                                 
+                                                                               
+         Width = 1445: uni22DB, uni22DA                                        
+                                                                               
+         Width = 1004: uni3012 [code: width-outliers]                          
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-Light.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1266 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 1018: logicalnot                                              
+                                                                               
+         Width = 1395: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1390: uni2213                                                 
+                                                                               
+         Width = 1492: uni221D                                                 
+                                                                               
+         Width = 1345: uni221F                                                 
+                                                                               
+         Width = 1432: uni2220                                                 
+                                                                               
+         Width = 1301: uni2237                                                 
+                                                                               
+         Width = 1658: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1407: uni2243, uni2245                                        
+                                                                               
+         Width = 1382: uni2261, uni2262                                        
+                                                                               
+         Width = 1436: uni2266, uni2267                                        
+                                                                               
+         Width = 1455: uni226F, uni226E                                        
+                                                                               
+         Width = 1435: uni2273, uni2272                                        
+                                                                               
+         Width = 1476: uni2277, uni2276                                        
+                                                                               
+         Width = 1443: uni22A5                                                 
+                                                                               
+         Width = 1451: uni22DB, uni22DA                                        
+                                                                               
+         Width = 1120: uni3012 [code: width-outliers]                          
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-Medium.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1302 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 1076: logicalnot                                              
+                                                                               
+         Width = 1416: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1377: uni2213                                                 
+                                                                               
+         Width = 1527: uni221D                                                 
+                                                                               
+         Width = 1360: uni221F, uni3012                                        
+                                                                               
+         Width = 1469: uni2273, uni2272, uni2220, uni226E, uni226F             
+                                                                               
+         Width = 1298: uni2237                                                 
+                                                                               
+         Width = 1696: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1402: uni2243, uni2245                                        
+                                                                               
+         Width = 1374: uni2261, uni2262                                        
+                                                                               
+         Width = 1466: uni2266, uni2267                                        
+                                                                               
+         Width = 1496: uni2277, uni2276                                        
+                                                                               
+         Width = 1493: uni22A5                                                 
+                                                                               
+         Width = 1471: uni22DB, uni22DA [code: width-outliers]                 
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-Regular.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1284 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 1046: logicalnot                                              
+                                                                               
+         Width = 1402: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1376: uni2213                                                 
+                                                                               
+         Width = 1506: uni221D                                                 
+                                                                               
+         Width = 1348: uni221F                                                 
+                                                                               
+         Width = 1445: uni2220                                                 
+                                                                               
+         Width = 1293: uni2237                                                 
+                                                                               
+         Width = 1672: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1398: uni2243, uni2245                                        
+                                                                               
+         Width = 1370: uni2261, uni2262                                        
+                                                                               
+         Width = 1447: uni2266, uni2267                                        
+                                                                               
+         Width = 1458: uni226F, uni226E                                        
+                                                                               
+         Width = 1448: uni2273, uni2272                                        
+                                                                               
+         Width = 1479: uni2277, uni2276                                        
+                                                                               
+         Width = 1464: uni22A5                                                 
+                                                                               
+         Width = 1455: uni22DB, uni22DA                                        
+                                                                               
+         Width = 1234: uni3012 [code: width-outliers]                          
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-SemiBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1320 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 1106: logicalnot                                              
+                                                                               
+         Width = 1429: uni2284, uni2287, uni228B, uni2209, uni228A, uni2208,   
+         uni2282, uni2285, uni220B, uni2286, uni2283                           
+                                                                               
+         Width = 1379: uni2213                                                 
+                                                                               
+         Width = 1545: uni221D                                                 
+                                                                               
+         Width = 1372: uni221F                                                 
+                                                                               
+         Width = 1486: uni2220, uni3012                                        
+                                                                               
+         Width = 1304: uni2237                                                 
+                                                                               
+         Width = 1717: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1409: uni2243, uni2245                                        
+                                                                               
+         Width = 1376: uni2261, uni2262                                        
+                                                                               
+         Width = 1482: uni2266, uni226F, uni226E, uni2267                      
+                                                                               
+         Width = 1488: uni2273, uni2272                                        
+                                                                               
+         Width = 1509: uni2277, uni2276                                        
+                                                                               
+         Width = 1512: uni22A5                                                 
+                                                                               
+         Width = 1483: uni22DB, uni22DA [code: width-outliers]                 
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with JennySans-Thin.ttf
+
+    Rationale:                                                                
+                                                                               
+    It is a common practice to have math signs sharing the same width          
+    (preferably the same width as tabular figures accross the entire font      
+    family).                                                                   
+                                                                               
+    This probably comes from the will to avoid additional tabular math signs   
+    knowing that their design can easily share the same width.                 
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 1232 among a set of 13 math glyphs. The      
+         following math glyphs have a different width, though:                 
+                                                                               
+         Width = 966: logicalnot                                               
+                                                                               
+         Width = 1387: uni2284, uni2287, uni2262, uni2209, uni228B, uni228A,   
+         uni2208, uni2285, uni220B, uni2286, uni2283, uni2282, uni2261         
+                                                                               
+         Width = 1396: uni2213                                                 
+                                                                               
+         Width = 1479: uni221D                                                 
+                                                                               
+         Width = 1339: uni221F                                                 
+                                                                               
+         Width = 1417: uni2220                                                 
+                                                                               
+         Width = 1301: uni2237                                                 
+                                                                               
+         Width = 1642: uni224C, uni223C, uni223D                               
+                                                                               
+         Width = 1407: uni2243, uni2245                                        
+                                                                               
+         Width = 1425: uni2266, uni22A5, uni2267                               
+                                                                               
+         Width = 1448: uni226F, uni226E                                        
+                                                                               
+         Width = 1420: uni2273, uni2272                                        
+                                                                               
+         Width = 1469: uni2277, uni2276                                        
+                                                                               
+         Width = 1444: uni22DB, uni22DA                                        
+                                                                               
+         Width = 890: uni3012 [code: width-outliers]                           
+
+    Result: WARN
+
+ >> overlapping_path_segments
+    Check there are no overlapping path segments
+    with JennySans-Black.ttf
+
+    Rationale:                                                                
+                                                                               
+    Some rasterizers encounter difficulties when rendering glyphs with         
+    overlapping path segments.                                                 
+                                                                               
+    A path segment is a section of a path defined by two on-curve points.      
+    When two segments share the same coordinates, they are considered          
+    overlapping.                                                               
+                                                                               
+    More info: 
+https://github.com/google/fonts/issues/7594#issuecomment-2401909084
+
+    WARN The following glyphs have overlapping path segments:                  
+                                                                               
+                                                                               
+          * uniB6CC (U+B6CC): L<<1338.0,448.0>--<1338.0,446.0>> has the same   
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB6E8 (U+B6E8): L<<1340.0,436.0>--<1340.0,434.0>> has the same   
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB870 (U+B870): L<<734.0,424.0>--<734.0,418.0>> has the same     
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB870 (U+B870): L<<1286.0,420.0>--<1286.0,418.0>> has the same   
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB88B (U+B88B): L<<750.0,432.0>--<750.0,434.0>> has the same     
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB88C (U+B88C): L<<1282.0,438.0>--<1282.0,436.0>> has the same   
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB8A7 (U+B8A7): L<<818.0,432.0>--<818.0,434.0>> has the same     
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB8E0 (U+B8E0): L<<734.0,426.0>--<734.0,420.0>> has the same     
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB917 (U+B917): L<<818.0,404.0>--<818.0,406.0>> has the same     
+          coordinates as a previous segment.                                   
+                                                                               
+          * uniB9A3 (U+B9A3): L<<1098.0,434.0>--<1098.0,430.0>> has the same   
+          coordinates as a previous segment. [code:                            
+          overlapping-path-segments]                                           
+                                                                               
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-Black.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-Bold.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-ExtraBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-ExtraLight.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-Light.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-Medium.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-Regular.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-SemiBold.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with JennySans-Thin.ttf
+
+    Rationale:                                                                
+                                                                               
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a           
+    hyphenation possibility within a word in the absence of or overriding      
+    dictionary hyphenation.                                                    
+                                                                               
+    It is sometimes designed empty with no width (such as a control            
+    character), sometimes the same as the traditional hyphen, sometimes        
+    double encoded with the hyphen.                                            
+                                                                               
+    That being said, it is recommended to not include it in the font at all,   
+    because discretionary hyphenation should be handled at the level of the    
+    shaping engine, not the font. Also, even if present, the software would    
+    not display that character.                                                
+                                                                               
+    More discussion at:                                                        
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-ho  
+    rizontalbar                                                                
+                                                                               
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]           
+
+    Result: WARN
+
+
+Total:
+    ERROR: 0
+    FATAL: 0
+    FAIL: 0
+    WARN: 55
+    INFO: 27
+    SKIP: 318
+    PASS: 647
+
+
+
+    Meaning of check results:
+
+    An ERROR is something wrong with FontBakery itself, possibly a bug.
+    A  FATAL is an extremely severe issue that must be addressed immediately.
+    A  FAIL is a problem with the font that must be fixed.
+    A  WARN is something that you should consider addressing.
+    An INFO result simply prints something useful. Typically stats.
+    A  PASS means the font looks good for the given checking routine.
+And a  SKIP happens when the check does not apply to the given font.
+
+    If you get ERRORs, please help us improve the tool by reporting them at
+    https://github.com/fonttools/fontbakery/issues (but other kinds of bug
+    reports and/or feature requests are also always welcome, of course!)
+
+
+
+
+                           ,@.
+                         ,@.@@,.
+                   ,@@,.@@@.  @.@@@,.
+                 ,@@. @@@.     @@. @@,.
+         ,@@@.@,.@.              @.  @@@@,.@.@@,.
+    ,@@.@.     @@.@@.            @,.    .@’ @’  @@,
+  ,@@. @.          .@@.@@@.  @@’                  @,
+ ,@.  @@.                                          @,
+ @.     @,@@,.     ,                             .@@,
+ @,.       .@,@@,.         .@@,.  ,       .@@,  @, @,
+ @.                             .@. @ @@,.    ,      @
+  @,.@@.     @,.      @@,.      @.           @,.    @’
+   @@||@,.  @’@,.       @@,.  @@ @,.        @’@@,  @’
+      \\@@@@’  @,.      @’@@@@’   @@,.   @@@’ //@@@’
+       |||||||| @@,.  @@’ |||||||  |@@@|@||  ||
+        \\\\\\\  ||@@@||  |||||||  |||||||  //
+         |||||||  ||||||  ||||||   ||||||  ||
+          \\\\\\  ||||||  ||||||  ||||||  //
+           ||||||  |||||  |||||   |||||  ||
+            \\\\\  |||||  |||||  |||||  //
+             |||||  ||||  |||||  ||||  ||
+              \\\\  ||||  ||||  ||||  //
+               ||||||||||||||||||||||||
+
+         No check is failing. Get a cupcake!
+       <<Art by Tony de Marco, July 26, 2018>>
+
+DONE!
+A report in html format has been saved to "docs/qa/fontbakery-1.001-static.html"
+A report in JSON format has been saved to "docs/qa/results/fontbakery-static.json"
+  [] 0%

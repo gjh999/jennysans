@@ -1,0 +1,759 @@
+{
+ "verdict": "PASS",
+ "counts": {
+  "PASS": 140,
+  "INFO": 10
+ },
+ "rows": [
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Thin.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Thin.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Thin.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+3181, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Thin.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1596+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-Thin.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Thin.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 734, 0, None), ('uniE0B7', 1270, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 496, 0, None), ('uniE0B7', 1032, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Thin.ttf: ∼ bbox (150, 288, 1492, 844) adv 1642 vs ∽ bbox (150, 288, 1492, 844) adv 1642 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Thin.ttf: ≒ ('simple', 4, 32) adv 1232 (기대 4윤곽, 점 = '='8 + 2×period12 = 32 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1232)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Thin.ttf: ◈ ('simple', 3, 12) adv 2032 (기대 3윤곽 12점, adv = ◇ 2032)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Thin.ttf: U+FFE2 ('composite', [('logicalnot', 477, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Thin.ttf: U+FFE3 ('composite', [('macron', 666, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Thin.ttf: U+FFE4 ('composite', [('brokenbar', 701, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-Thin.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-Thin.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-Thin.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-ExtraLight.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-ExtraLight.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-ExtraLight.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.5u @ U+3181, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-ExtraLight.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1602+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-ExtraLight.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraLight.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 730, 0, None), ('uniE0B7', 1254, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 502, 0, None), ('uniE0B7', 1026, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraLight.ttf: ∼ bbox (150, 286, 1497, 848) adv 1647 vs ∽ bbox (150, 286, 1497, 848) adv 1647 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraLight.ttf: ≒ ('simple', 4, 32) adv 1250 (기대 4윤곽, 점 = '='8 + 2×period12 = 32 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1250)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraLight.ttf: ◈ ('simple', 3, 12) adv 2042 (기대 3윤곽 12점, adv = ◇ 2042)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraLight.ttf: U+FFE2 ('composite', [('logicalnot', 464, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraLight.ttf: U+FFE3 ('composite', [('macron', 620, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraLight.ttf: U+FFE4 ('composite', [('brokenbar', 683, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-ExtraLight.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-ExtraLight.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-ExtraLight.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Light.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Light.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Light.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.5u @ U+317E, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Light.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1608+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-Light.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Light.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 724, 0, None), ('uniE0B7', 1238, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 508, 0, None), ('uniE0B7', 1022, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Light.ttf: ∼ bbox (150, 281, 1508, 851) adv 1658 vs ∽ bbox (150, 281, 1508, 851) adv 1658 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Light.ttf: ≒ ('simple', 4, 32) adv 1266 (기대 4윤곽, 점 = '='8 + 2×period12 = 32 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1266)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Light.ttf: ◈ ('simple', 3, 12) adv 2052 (기대 3윤곽 12점, adv = ◇ 2052)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Light.ttf: U+FFE2 ('composite', [('logicalnot', 451, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Light.ttf: U+FFE3 ('composite', [('macron', 574, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Light.ttf: U+FFE4 ('composite', [('brokenbar', 665, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-Light.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-Light.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-Light.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Regular.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Regular.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Regular.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+3187, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Regular.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1616+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-Regular.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Regular.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 722, 0, None), ('uniE0B7', 1224, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 514, 0, None), ('uniE0B7', 1016, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Regular.ttf: ∼ bbox (150, 273, 1522, 861) adv 1672 vs ∽ bbox (150, 273, 1522, 861) adv 1672 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Regular.ttf: ≒ ('simple', 4, 40) adv 1284 (기대 4윤곽, 점 = '='8 + 2×period16 = 40 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1284)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Regular.ttf: ◈ ('simple', 3, 12) adv 2062 (기대 3윤곽 12점, adv = ◇ 2062)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Regular.ttf: U+FFE2 ('composite', [('logicalnot', 437, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Regular.ttf: U+FFE3 ('composite', [('macron', 528, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Regular.ttf: U+FFE4 ('composite', [('brokenbar', 647, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-Regular.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-Regular.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-Regular.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Medium.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Medium.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Medium.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+3174, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Medium.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1622+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-Medium.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Medium.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 726, 0, None), ('uniE0B7', 1236, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 528, 0, None), ('uniE0B7', 1038, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Medium.ttf: ∼ bbox (150, 267, 1546, 875) adv 1696 vs ∽ bbox (150, 267, 1546, 875) adv 1696 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Medium.ttf: ≒ ('simple', 4, 40) adv 1302 (기대 4윤곽, 점 = '='8 + 2×period16 = 40 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1302)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Medium.ttf: ◈ ('simple', 3, 12) adv 2074 (기대 3윤곽 12점, adv = ◇ 2074)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Medium.ttf: U+FFE2 ('composite', [('logicalnot', 422, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Medium.ttf: U+FFE3 ('composite', [('macron', 489, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Medium.ttf: U+FFE4 ('composite', [('brokenbar', 630, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-Medium.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-Medium.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-Medium.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-SemiBold.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-SemiBold.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-SemiBold.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+316F, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-SemiBold.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1630+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-SemiBold.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-SemiBold.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 730, 0, None), ('uniE0B7', 1248, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 542, 0, None), ('uniE0B7', 1060, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-SemiBold.ttf: ∼ bbox (150, 263, 1567, 887) adv 1717 vs ∽ bbox (150, 263, 1567, 887) adv 1717 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-SemiBold.ttf: ≒ ('simple', 4, 40) adv 1320 (기대 4윤곽, 점 = '='8 + 2×period16 = 40 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1320)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-SemiBold.ttf: ◈ ('simple', 3, 12) adv 2086 (기대 3윤곽 12점, adv = ◇ 2086)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-SemiBold.ttf: U+FFE2 ('composite', [('logicalnot', 407, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-SemiBold.ttf: U+FFE3 ('composite', [('macron', 450, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-SemiBold.ttf: U+FFE4 ('composite', [('brokenbar', 613, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-SemiBold.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-SemiBold.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-SemiBold.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Bold.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Bold.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Bold.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+317E, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Bold.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1636+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-Bold.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Bold.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 738, 0, None), ('uniE0B7', 1264, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 556, 0, None), ('uniE0B7', 1082, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Bold.ttf: ∼ bbox (150, 262, 1582, 898) adv 1732 vs ∽ bbox (150, 262, 1582, 898) adv 1732 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Bold.ttf: ≒ ('simple', 4, 40) adv 1338 (기대 4윤곽, 점 = '='8 + 2×period16 = 40 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1338)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Bold.ttf: ◈ ('simple', 3, 12) adv 2098 (기대 3윤곽 12점, adv = ◇ 2098)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Bold.ttf: U+FFE2 ('composite', [('logicalnot', 391, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Bold.ttf: U+FFE3 ('composite', [('macron', 411, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Bold.ttf: U+FFE4 ('composite', [('brokenbar', 596, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-Bold.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-Bold.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-Bold.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-ExtraBold.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-ExtraBold.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-ExtraBold.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+3172, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-ExtraBold.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1644+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-ExtraBold.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraBold.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 742, 0, None), ('uniE0B7', 1276, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 570, 0, None), ('uniE0B7', 1104, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraBold.ttf: ∼ bbox (150, 258, 1601, 908) adv 1751 vs ∽ bbox (150, 258, 1601, 908) adv 1751 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraBold.ttf: ≒ ('simple', 4, 40) adv 1356 (기대 4윤곽, 점 = '='8 + 2×period16 = 40 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1356)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraBold.ttf: ◈ ('simple', 3, 12) adv 2112 (기대 3윤곽 12점, adv = ◇ 2112)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraBold.ttf: U+FFE2 ('composite', [('logicalnot', 376, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraBold.ttf: U+FFE3 ('composite', [('macron', 372, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-ExtraBold.ttf: U+FFE4 ('composite', [('brokenbar', 579, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-ExtraBold.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-ExtraBold.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-ExtraBold.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Black.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySans-Black.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Black.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+3173, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySans-Black.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1652+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySans-Black.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Black.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 746, 0, None), ('uniE0B7', 1286, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 584, 0, None), ('uniE0B7', 1124, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Black.ttf: ∼ bbox (150, 254, 1625, 922) adv 1775 vs ∽ bbox (150, 254, 1625, 922) adv 1775 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Black.ttf: ≒ ('simple', 4, 40) adv 1374 (기대 4윤곽, 점 = '='8 + 2×period16 = 40 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1374)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Black.ttf: ◈ ('simple', 3, 12) adv 2124 (기대 3윤곽 12점, adv = ◇ 2124)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Black.ttf: U+FFE2 ('composite', [('logicalnot', 361, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Black.ttf: U+FFE3 ('composite', [('macron', 332, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySans-Black.ttf: U+FFE4 ('composite', [('brokenbar', 562, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySans-Black.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySans-Black.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySans-Black.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySansVariable.ttf: 한글류 보충 398 글립 adv 1770 (위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-adv",
+   "JennySansVariable.ttf: 방점 adv [481, 481] (기대 481)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySansVariable.ttf: U+3165–318E 보충 41자 원본 기저선차 재현 |J차 − 1.965×N차| ≤ 6u (최대 1.4u @ U+3187, 위반 0)"
+  ],
+  [
+   "PASS",
+   "hangul-pos",
+   "JennySansVariable.ttf: 초성 자모 U+1100–1112 상단 ≤ 가 yMax 1616+20: 위반 []"
+  ],
+  [
+   "PASS",
+   "box",
+   "JennySansVariable.ttf: 괘선·블록 160 글립 adv 1770 위반 0, 가로 연결 위반 [], 세로 연결 위반 [], █ bbox (0, -494, 1770, 1950)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySansVariable.ttf: ⅔ ('composite', [('uniE0B6', 0, 724, None), ('fraction', 722, 0, None), ('uniE0B7', 1224, 0, None)]) / ⅓ ('composite', [('uniE0B5', 0, 724, None), ('fraction', 514, 0, None), ('uniE0B7', 1016, 0, None)])"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySansVariable.ttf: ∼ bbox (150, 273, 1522, 861) adv 1672 vs ∽ bbox (150, 273, 1522, 861) adv 1672 (폭·높이·중심 x 동일)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySansVariable.ttf: ≒ ('simple', 4, 40) adv 1284 (기대 4윤곽, 점 = '='8 + 2×period16 = 40 [spec 07 §8-5 의 40점은 Regular 기준], adv = '=' 1284)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySansVariable.ttf: ◈ ('simple', 3, 12) adv 2062 (기대 3윤곽 12점, adv = ◇ 2062)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySansVariable.ttf: U+FFE2 ('composite', [('logicalnot', 437, 0, None)]) adv 1920 (기대 logicalnot 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySansVariable.ttf: U+FFE3 ('composite', [('macron', 528, 0, None)]) adv 1920 (기대 macron 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "synth",
+   "JennySansVariable.ttf: U+FFE4 ('composite', [('brokenbar', 647, 0, None)]) adv 1920 (기대 brokenbar 컴포지트, adv 1920)"
+  ],
+  [
+   "PASS",
+   "mirror",
+   "JennySansVariable.ttf: 외곽 윤곽 면적 부호 ∼ -1, ∽ -1, H -1"
+  ],
+  [
+   "PASS",
+   "lookups",
+   "JennySansVariable.ttf: 보충 912 글립 중 GSUB/GPOS 룩업 참조 0 []"
+  ],
+  [
+   "INFO",
+   "gdef",
+   "JennySansVariable.ttf: 보충 글립 중 GDEF GlyphClassDef 등재 912 ['uni01C4', 'uni1100', 'uni1101', 'uni1102', 'uni1103']"
+  ]
+ ]
+}

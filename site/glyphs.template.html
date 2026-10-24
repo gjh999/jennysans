@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>글자맵 — JennySans 제니산스에 든 글자 전부 보기</title>
+<meta name="description" content="JennySans(제니산스) {{VERSION}} 에 들어 있는 글자 {{GLYPH:total}}자를 블록별로 훑어보는 글자맵. 한글 {{CMAP:hangul}}자·라틴·그리스·키릴·KS 기호·단위·괘선. 웨이트(100–900)와 크기를 바꿔 보고 코드포인트를 복사할 수 있습니다.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0e0e" media="(prefers-color-scheme: dark)">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:site_name" content="JennySans 제니산스">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="글자맵 — JennySans 제니산스에 든 글자 전부 보기">
+<meta property="og:description" content="블록별로 {{GLYPH:total}}자를 훑어보고, 웨이트·크기를 바꾸고, 코드포인트를 복사합니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{BASE_URL}}/glyphs.html">
+<meta property="og:image" content="{{BASE_URL}}/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{BASE_URL}}/assets/og-image.png">
+<link rel="canonical" href="{{BASE_URL}}/glyphs.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<script>(function(){try{var t=localStorage.getItem('jennysans-theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();</script>
+<!-- UI 텍스트: 분할 CSS. 글립 격자: 변수 폰트 전체본(모든 글자가 나와야 하므로 조각 대신 전체본 1개) -->
+<link rel="stylesheet" href="/v/{{VERSION}}/css/jennysans-dynamic-subset.css">
+<style>
+  @font-face {
+    font-family: "JennySans VF";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("/v/{{VERSION}}/web/JennySansVariable.woff2") format("woff2") tech("variations"),
+         url("/v/{{VERSION}}/web/JennySansVariable.woff2") format("woff2-variations"),
+         url("/v/{{VERSION}}/web/JennySansVariable.woff2") format("woff2");
+  }
+</style>
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body class="page-glyphs">
+<a class="skip" href="#glyph-main">글자맵으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">JennySans <span class="brand-ko">제니산스</span></a>
+    <nav class="site-nav" aria-label="페이지 이동">
+      <a href="/#tester">테스터</a>
+      <a href="/#weights">웨이트</a>
+      <a href="/glyphs.html" aria-current="page">글자맵</a>
+      <a href="/#charset">문자 범위</a>
+      <a href="/#languages">언어</a>
+      <a href="/#download">다운로드</a>
+      <a href="/#usage">사용법</a>
+      <a href="/#license">라이선스</a>
+    </nav>
+    <div class="header-actions">
+      <button type="button" id="theme-toggle" class="icon-btn" aria-label="다크/라이트 전환" title="다크/라이트 전환">
+        <svg class="ico-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="ico-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="btn btn-primary btn-sm" href="/#download">다운로드</a>
+    </div>
+  </div>
+</header>
+
+<main id="glyph-main" class="glyph-page">
+  <div class="wrap">
+    <div class="glyph-head">
+      <div>
+        <p class="eyebrow">Glyph map · {{VERSION}}</p>
+        <h1>글자맵</h1>
+        <p class="section-desc">JennySans 에 실제로 들어 있는 <b>{{GLYPH:total}}자</b>를 블록 {{GLYPH:blocks}}개로 나눠 전부 볼 수 있습니다.
+          글자를 누르면 코드포인트·유니코드 이름이 나오고 복사할 수 있습니다. 목록은 폰트 파일의 cmap 을 그대로 읽어 만든 것입니다.</p>
+      </div>
+    </div>
+
+    <div class="glyph-controls">
+      <div class="control">
+        <label for="g-weight">굵기 <output id="g-weight-out" for="g-weight">400 · Regular</output></label>
+        <input type="range" id="g-weight" min="100" max="900" step="50" value="400">
+      </div>
+      <div class="control">
+        <label for="g-size">크기 <output id="g-size-out" for="g-size">40px</output></label>
+        <input type="range" id="g-size" min="16" max="96" step="2" value="40">
+      </div>
+      <div class="control control-search">
+        <label for="g-search">찾기 <span class="control-hint">U+AC00 또는 글자</span></label>
+        <input type="search" id="g-search" placeholder="U+AC00 · 가 · ㎏" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="glyph-layout">
+      <nav class="glyph-blocks" id="g-blocks" aria-label="블록 목록"></nav>
+      <section class="glyph-body" aria-live="polite">
+        <div class="glyph-bodyhead">
+          <h2 id="g-title">불러오는 중…</h2>
+          <p id="g-note" class="note"></p>
+          <div class="chips" id="g-groups" role="group" aria-label="초성"></div>
+        </div>
+        <div id="g-grid" class="glyph-grid-cells" role="grid" aria-label="글립 격자"></div>
+        <p id="g-more" class="glyph-more" hidden><button type="button" class="btn" id="g-more-btn">더 보기</button></p>
+      </section>
+    </div>
+  </div>
+
+  <aside class="glyph-detail" id="g-detail" hidden aria-live="polite">
+    <button type="button" class="glyph-detail-close" id="g-detail-close" aria-label="닫기">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="glyph-detail-big" id="g-detail-glyph"></div>
+    <dl class="glyph-detail-meta">
+      <div><dt>코드포인트</dt><dd id="g-detail-cp"></dd></div>
+      <div><dt>유니코드 이름</dt><dd id="g-detail-name"></dd></div>
+      <div><dt>블록</dt><dd id="g-detail-block"></dd></div>
+    </dl>
+    <div class="glyph-detail-actions">
+      <button type="button" class="copy-btn" id="g-copy-char">글자 복사</button>
+      <button type="button" class="copy-btn" id="g-copy-cp">U+ 복사</button>
+      <button type="button" class="copy-btn" id="g-copy-html">HTML 코드 복사</button>
+    </div>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-row">
+      <p>© 2026 JennySoft · <a href="https://jennysoft.co.kr" rel="noopener">jennysoft.co.kr</a> · JennySans {{VERSION}} · 글자맵 데이터 {{DATE}}</p>
+      <p><a href="/">홈</a> · <a href="/#download">다운로드</a> · <a href="/#license">라이선스</a></p>
+    </div>
+    <p class="footer-note">글립 격자는 변수 폰트 전체본(<code>/v/{{VERSION}}/web/JennySansVariable.woff2</code>) 하나로 그립니다 — 모든 글자를 보여줘야 해서 분할본 대신 전체본을 씁니다.
+      <span id="font-status" aria-live="polite"></span></p>
+  </div>
+</footer>
+
+<script src="/assets/site.js" defer></script>
+<script src="/assets/glyphs.js" defer></script>
+</body>
+</html>

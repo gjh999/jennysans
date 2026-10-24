@@ -1,0 +1,18 @@
+# JennySans
+sources/
+!sources/MANIFEST.md
+build/
+__pycache__/
+*.pyc
+.claude/settings.local.json
+docs/qa/shots/*.png
+!docs/qa/shots/.gitkeep
+*.zip
+.DS_Store
+Thumbs.db
+dist/packages/
+site/__pycache__/
+docs/qa/results/fontbakery-*.json
+docs/qa/scripts/__pycache__/
+charset/scripts/__pycache__/
+tools/__pycache__/

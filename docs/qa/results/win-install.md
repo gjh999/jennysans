@@ -1,0 +1,92 @@
+﻿# Windows 사용자 범위 설치 실측 — 2026-09-09 10:22 (PowerShell 5.1.22000.2538, Microsoft Windows NT 10.0.22000.0)
+
+폰트 폴더: %USERPROFILE%\AppData\Local\Microsoft\Windows\Fonts · 레지스트리: HKCU:\Software\Microsoft\Windows NT\CurrentVersion\Fonts
+
+사전 상태: 폴더 내 JennySans 파일 0, 레지스트리 값 0
+
+## 설치
+
+| 파일 | Full name(ID 4) | 레지스트리 값 이름 | AddFontResource |
+|---|---|---|---|
+| JennySans-Black.ttf | JennySans Black | JennySans Black (TrueType) | 2 |
+| JennySans-Bold.ttf | JennySans Bold | JennySans Bold (TrueType) | 2 |
+| JennySans-ExtraBold.ttf | JennySans ExtraBold | JennySans ExtraBold (TrueType) | 2 |
+| JennySans-ExtraLight.ttf | JennySans ExtraLight | JennySans ExtraLight (TrueType) | 2 |
+| JennySans-Light.ttf | JennySans Light | JennySans Light (TrueType) | 2 |
+| JennySans-Medium.ttf | JennySans Medium | JennySans Medium (TrueType) | 2 |
+| JennySans-Regular.ttf | JennySans Regular | JennySans Regular (TrueType) | 2 |
+| JennySans-SemiBold.ttf | JennySans SemiBold | JennySans SemiBold (TrueType) | 2 |
+| JennySans-Thin.ttf | JennySans Thin | JennySans Thin (TrueType) | 2 |
+| JennySansVariable.ttf | JennySans Variable Regular | JennySans Variable Regular (TrueType) | 18 |
+
+## 열거 (a) GDI — System.Drawing.Text.InstalledFontCollection
+
+| 패밀리 | Regular | Bold | Italic | BoldItalic |
+|---|---|---|---|---|
+| JennySans | True | True | True | True |
+| JennySans Variable | True | True | True | True |
+| JennySans Variable Black | True | True | True | True |
+| JennySans Variable ExtraBold | True | True | True | True |
+| JennySans Variable ExtraLight | True | True | True | True |
+| JennySans Variable Light | True | True | True | True |
+| JennySans Variable Medium | True | True | True | True |
+| JennySans Variable SemiBold | True | True | True | True |
+| JennySans Variable Thin | True | True | True | True |
+| JennySans Black | True | True | True | True |
+| JennySans ExtraBold | True | True | True | True |
+| JennySans ExtraLight | True | True | True | True |
+| JennySans Light | True | True | True | True |
+| JennySans Medium | True | True | True | True |
+| JennySans SemiBold | True | True | True | True |
+| JennySans Thin | True | True | True | True |
+
+GDI 패밀리 수: 16 (기대 16 = 정적 8: JennySans(Regular+Bold 링크) + Thin/ExtraLight/Light/Medium/SemiBold/ExtraBold/Black 7 — ko-KR 로캘에서는 '제니산스 <W>' 로 표시될 수 있음 + 변수 8: 'JennySans Variable' + Windows 10+ 가 명명 인스턴스를 GDI 패밀리로 노출한 7)
+
+## 열거 (b) DirectWrite 계열 — System.Windows.Media.Fonts.SystemFontFamilies (typographic family + FamilyTypefaces)
+
+| 패밀리(Source) | FamilyNames(언어별) | Typeface 수 | Weight/Style 목록 |
+|---|---|---|---|
+| JennySans | en-us=JennySans | 18 | Thin/Normal, ExtraLight/Normal, Light/Normal, Normal/Normal, Medium/Normal, SemiBold/Normal, Bold/Normal, ExtraBold/Normal, Black/Normal, Thin/Oblique, ExtraLight/Oblique, Light/Oblique, Normal/Oblique, Medium/Oblique, SemiBold/Oblique, Bold/Oblique, ExtraBold/Oblique, Black/Oblique |
+| JennySans Variable | en-us=JennySans Variable | 18 | Thin/Normal, ExtraLight/Normal, Light/Normal, Normal/Normal, Medium/Normal, SemiBold/Normal, Bold/Normal, ExtraBold/Normal, Black/Normal, Thin/Oblique, ExtraLight/Oblique, Light/Oblique, Normal/Oblique, Medium/Oblique, SemiBold/Oblique, Bold/Oblique, ExtraBold/Oblique, Black/Oblique |
+
+DirectWrite 계열 패밀리 수: 2 (기대 2: 'JennySans' 9 typefaces + 'JennySans Variable')
+
+폴더 직접 열거 GetFontFamilies('%USERPROFILE%\AppData\Local\Microsoft\Windows\Fonts'):
+- ./#JennySans: 18 typefaces — Thin/Normal, ExtraLight/Normal, Light/Normal, Normal/Normal, Medium/Normal, SemiBold/Normal, Bold/Normal, ExtraBold/Normal, Black/Normal, Thin/Oblique, ExtraLight/Oblique, Light/Oblique, Normal/Oblique, Medium/Oblique, SemiBold/Oblique, Bold/Oblique, ExtraBold/Oblique, Black/Oblique
+- ./#JennySans Variable: 18 typefaces — Thin/Normal, ExtraLight/Normal, Light/Normal, Normal/Normal, Medium/Normal, SemiBold/Normal, Bold/Normal, ExtraBold/Normal, Black/Normal, Thin/Oblique, ExtraLight/Oblique, Light/Oblique, Normal/Oblique, Medium/Oblique, SemiBold/Oblique, Bold/Oblique, ExtraBold/Oblique, Black/Oblique
+
+## GDI 렌더 (System.Drawing Graphics.DrawString, ClearType)
+
+| 요청 패밀리 | 스타일 | 실제 패밀리(Font.FontFamily.Name) | 판정 |
+|---|---|---|---|
+| JennySans Thin | Regular | JennySans Thin | OK |
+| JennySans ExtraLight | Regular | JennySans ExtraLight | OK |
+| JennySans Light | Regular | JennySans Light | OK |
+| JennySans | Regular | JennySans | OK |
+| JennySans Medium | Regular | JennySans Medium | OK |
+| JennySans SemiBold | Regular | JennySans SemiBold | OK |
+| JennySans | Bold | JennySans | OK |
+| JennySans ExtraBold | Regular | JennySans ExtraBold | OK |
+| JennySans Black | Regular | JennySans Black | OK |
+| JennySans Variable | Regular | JennySans Variable | OK |
+
+렌더 PNG: docs/qa/shots/win-gdi-all-weights.png
+
+## 제거
+
+| 파일 | RemoveFontResource | 파일 삭제 |
+|---|---|---|
+| JennySans-Black.ttf | True | 삭제됨 |
+| JennySans-Bold.ttf | True | 삭제됨 |
+| JennySans-ExtraBold.ttf | True | 삭제됨 |
+| JennySans-ExtraLight.ttf | True | 삭제됨 |
+| JennySans-Light.ttf | True | 삭제됨 |
+| JennySans-Medium.ttf | True | 삭제됨 |
+| JennySans-Regular.ttf | True | 삭제됨 |
+| JennySans-SemiBold.ttf | True | 삭제됨 |
+| JennySans-Thin.ttf | True | 삭제됨 |
+| JennySansVariable.ttf | True | 삭제됨 |
+
+제거 후: 폴더 잔존 0, 레지스트리 잔존 0, GDI 열거 잔존 16, WPF 열거 잔존 2 (WPF 는 프로세스 캐시로 남을 수 있음 — 폴더·레지스트리 0 이면 제거 완료)
+
+제거 판정: **PASS**

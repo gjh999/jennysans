@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>QA page A — 라틴·스페인어만 (400·700)</title>
+<!-- spec 05 §4 테스트 페이지 A: 라틴·스페인어만, 400·700. 목표(분할 CSS): 요청 2, 전송 ≤ 70 KB. ?mode=static|variable|subset|variable-subset -->
+<link id="fontcss" rel="stylesheet" href="../../../dist/css/jennysans-dynamic-subset.css">
+<style>
+  body { font-family: "JennySans", serif; font-synthesis: none; margin: 40px; line-height: 1.6; font-size: 18px; }
+  h1 { font-weight: 700; font-size: 32px; }
+</style>
+<script>
+  (function () {
+    var CSS = { static: 'jennysans.css', variable: 'jennysans-variable.css', subset: 'jennysans-dynamic-subset.css', 'variable-subset': 'jennysans-variable-dynamic-subset.css' };
+    var m = new URLSearchParams(location.search).get('mode') || 'subset';
+    document.getElementById('fontcss').href = '../../../dist/css/' + (CSS[m] || CSS.subset);
+  })();
+</script>
+</head>
+<body>
+<h1>¿Qué tal, señor? ¡Año nuevo!</h1>
+<p>Ñandú, pingüino, 1ª 2º, 12,50 €. El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.</p>
+<p>The quick brown fox jumps over the lazy dog. Sphinx of black quartz, judge my vow. Pack my box with five dozen liquor jugs. 0123456789 — «Güell» áéíóú ÁÉÍÓÚ üÜ ñÑ ¿¡</p>
+<p style="font-weight:700">Negrita: ¿Qué tal, señor? ¡Año nuevo! JennySans 1.000 — SIL Open Font License 1.1.</p>
+</body>
+</html>

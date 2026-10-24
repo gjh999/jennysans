@@ -1,0 +1,59 @@
+{
+  "name": "jennysans",
+  "version": "1.0.1",
+  "description": "JennySans (제니산스) — general-purpose Korean & English (Latin) sans-serif font family under SIL OFL 1.1. All 11,172 modern Hangul syllables, complete Latin-1 and Latin Extended-A (30 verified languages incl. Spanish, French, German, Polish, Czech, Turkish, Nordic and Baltic), full basic Cyrillic (Russian, Ukrainian, Bulgarian, Serbian, Macedonian) and Greek, plus KS X 1001 Korean document symbols. 9 static weights + variable font; web fonts (WOFF2 full + unicode-range subsets) and ready-made CSS. Font version 1.001 (adds ballot boxes ☐☑☒); Hanja (KS X 1001) and Vietnamese planned for 1.100.",
+  "license": "OFL-1.1-RFN",
+  "private": false,
+  "homepage": "https://font.jennysoft.co.kr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjh999/jennysans.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gjh999/jennysans/issues"
+  },
+  "author": "JennySoft (https://jennysoft.co.kr)",
+  "keywords": [
+    "font",
+    "webfont",
+    "woff2",
+    "ttf",
+    "typeface",
+    "sans-serif",
+    "variable-font",
+    "unicode-range",
+    "korean",
+    "hangul",
+    "hangeul",
+    "hanja",
+    "latin",
+    "cyrillic",
+    "greek",
+    "spanish",
+    "european",
+    "multilingual",
+    "ofl",
+    "open-font-license",
+    "jennysans",
+    "제니산스"
+  ],
+  "files": [
+    "dist/css",
+    "dist/web",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md",
+    "README.md"
+  ],
+  "style": "dist/css/jennysans.css",
+  "unpkg": "dist/css/jennysans.css",
+  "jsdelivr": "dist/css/jennysans.css",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "prepack": "node -e \"const fs=require('fs');for(const p of ['dist/css/jennysans.css','dist/css/jennysans-variable.css','dist/css/jennysans-dynamic-subset.css','dist/web/JennySans-Regular.woff2','dist/web/JennySansVariable.woff2','LICENSE']){if(!fs.existsSync(p)){console.error('missing: '+p);process.exit(1)}}console.log('prepack ok')\"",
+    "pack:dry": "npm pack --dry-run"
+  }
+}

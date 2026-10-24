@@ -1,0 +1,3015 @@
+{
+ "verdict": "PASS",
+ "counts": {
+  "INFO": 61,
+  "PASS": 536,
+  "WARN": 4
+ },
+ "rows": [
+  [
+   "INFO",
+   "env",
+   "uharfbuzz 0.56.1, harfbuzz 14.4.0"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Thin.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Thin.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Thin.ttf: 'AV' kern 적용 (2408 → 2272)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Thin.ttf: 'To' kern 적용 (2304 → 2146)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Thin.ttf: 'Ya' kern 적용 (2238 → 2096)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Thin.ttf: 기본 adv [1146, 794, 1214, 1212, 1184, 1144, 1170, 1050, 1204, 1170] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Thin.ttf: tnum 10자 adv 동일 (1152)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Thin.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Thin.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Thin.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Thin.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Thin.ttf: space = nbsp adv 458"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-ExtraLight.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-ExtraLight.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraLight.ttf: 'AV' kern 적용 (2484 → 2348)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraLight.ttf: 'To' kern 적용 (2342 → 2184)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraLight.ttf: 'Ya' kern 적용 (2290 → 2147)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-ExtraLight.ttf: 기본 adv [1170, 828, 1210, 1230, 1216, 1170, 1198, 1068, 1218, 1198] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-ExtraLight.ttf: tnum 10자 adv 동일 (1188)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-ExtraLight.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-ExtraLight.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraLight.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraLight.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-ExtraLight.ttf: space = nbsp adv 476"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Light.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Light.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Light.ttf: 'AV' kern 적용 (2564 → 2427)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Light.ttf: 'To' kern 적용 (2376 → 2218)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Light.ttf: 'Ya' kern 적용 (2342 → 2198)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Light.ttf: 기본 adv [1194, 864, 1206, 1246, 1246, 1196, 1228, 1084, 1230, 1228] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Light.ttf: tnum 10자 adv 동일 (1222)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Light.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Light.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Light.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Light.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Light.ttf: space = nbsp adv 494"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Regular.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Regular.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Regular.ttf: 'AV' kern 적용 (2644 → 2506)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Regular.ttf: 'To' kern 적용 (2414 → 2256)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Regular.ttf: 'Ya' kern 적용 (2394 → 2250)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Regular.ttf: 기본 adv [1220, 898, 1202, 1264, 1278, 1222, 1256, 1102, 1242, 1256] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Regular.ttf: tnum 10자 adv 동일 (1258)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Regular.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Regular.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Regular.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Regular.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Regular.ttf: space = nbsp adv 514"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Medium.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Medium.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Medium.ttf: 'AV' kern 적용 (2740 → 2589)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Medium.ttf: 'To' kern 적용 (2450 → 2292)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Medium.ttf: 'Ya' kern 적용 (2452 → 2287)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Medium.ttf: 기본 adv [1264, 918, 1218, 1278, 1300, 1242, 1276, 1118, 1266, 1276] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Medium.ttf: tnum 10자 adv 동일 (1286)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Medium.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Medium.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Medium.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Medium.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Medium.ttf: space = nbsp adv 500"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-SemiBold.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-SemiBold.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-SemiBold.ttf: 'AV' kern 적용 (2840 → 2675)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-SemiBold.ttf: 'To' kern 적용 (2486 → 2328)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-SemiBold.ttf: 'Ya' kern 적용 (2508 → 2322)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-SemiBold.ttf: 기본 adv [1308, 940, 1234, 1294, 1322, 1264, 1296, 1134, 1292, 1296] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-SemiBold.ttf: tnum 10자 adv 동일 (1314)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-SemiBold.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-SemiBold.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-SemiBold.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-SemiBold.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-SemiBold.ttf: space = nbsp adv 486"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Bold.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Bold.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Bold.ttf: 'AV' kern 적용 (2940 → 2762)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Bold.ttf: 'To' kern 적용 (2524 → 2366)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Bold.ttf: 'Ya' kern 적용 (2566 → 2360)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Bold.ttf: 기본 adv [1352, 960, 1250, 1308, 1346, 1284, 1316, 1150, 1318, 1316] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Bold.ttf: tnum 10자 adv 동일 (1340)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Bold.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Bold.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Bold.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Bold.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Bold.ttf: space = nbsp adv 472"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-ExtraBold.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-ExtraBold.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraBold.ttf: 'AV' kern 적용 (3040 → 2848)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraBold.ttf: 'To' kern 적용 (2562 → 2404)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraBold.ttf: 'Ya' kern 적용 (2624 → 2396)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-ExtraBold.ttf: 기본 adv [1396, 980, 1266, 1324, 1368, 1306, 1338, 1168, 1342, 1338] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-ExtraBold.ttf: tnum 10자 adv 동일 (1368)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-ExtraBold.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-ExtraBold.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraBold.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraBold.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-ExtraBold.ttf: space = nbsp adv 458"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Black.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Black.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Black.ttf: 'AV' kern 적용 (3140 → 2935)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Black.ttf: 'To' kern 적용 (2600 → 2442)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Black.ttf: 'Ya' kern 적용 (2682 → 2434)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Black.ttf: 기본 adv [1440, 1000, 1282, 1340, 1390, 1326, 1358, 1184, 1368, 1358] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Black.ttf: tnum 10자 adv 동일 (1394)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Black.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Black.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Black.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Black.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Black.ttf: space = nbsp adv 446"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySansVariable.ttf: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.ttf: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySansVariable.ttf: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.ttf: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.ttf: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.ttf: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.ttf: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySansVariable.ttf: 'AV' kern 적용 (2644 → 2506)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySansVariable.ttf: 'To' kern 적용 (2414 → 2256)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySansVariable.ttf: 'Ya' kern 적용 (2394 → 2250)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySansVariable.ttf: 기본 adv [1220, 898, 1202, 1264, 1278, 1222, 1256, 1102, 1242, 1256] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySansVariable.ttf: tnum 10자 adv 동일 (1258)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySansVariable.ttf: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySansVariable.ttf: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySansVariable.ttf: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySansVariable.ttf: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySansVariable.ttf: space = nbsp adv 514"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Thin.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Thin.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Thin.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Thin.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Thin.woff2: 'AV' kern 적용 (2408 → 2272)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Thin.woff2: 'To' kern 적용 (2304 → 2146)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Thin.woff2: 'Ya' kern 적용 (2238 → 2096)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Thin.woff2: 기본 adv [1146, 794, 1214, 1212, 1184, 1144, 1170, 1050, 1204, 1170] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Thin.woff2: tnum 10자 adv 동일 (1152)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Thin.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Thin.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Thin.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Thin.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Thin.woff2: space = nbsp adv 458"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-ExtraLight.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraLight.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-ExtraLight.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraLight.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraLight.woff2: 'AV' kern 적용 (2484 → 2348)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraLight.woff2: 'To' kern 적용 (2342 → 2184)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraLight.woff2: 'Ya' kern 적용 (2290 → 2147)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-ExtraLight.woff2: 기본 adv [1170, 828, 1210, 1230, 1216, 1170, 1198, 1068, 1218, 1198] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-ExtraLight.woff2: tnum 10자 adv 동일 (1188)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-ExtraLight.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-ExtraLight.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraLight.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraLight.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-ExtraLight.woff2: space = nbsp adv 476"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Light.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Light.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Light.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Light.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Light.woff2: 'AV' kern 적용 (2564 → 2427)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Light.woff2: 'To' kern 적용 (2376 → 2218)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Light.woff2: 'Ya' kern 적용 (2342 → 2198)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Light.woff2: 기본 adv [1194, 864, 1206, 1246, 1246, 1196, 1228, 1084, 1230, 1228] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Light.woff2: tnum 10자 adv 동일 (1222)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Light.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Light.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Light.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Light.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Light.woff2: space = nbsp adv 494"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Regular.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Regular.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Regular.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Regular.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Regular.woff2: 'AV' kern 적용 (2644 → 2506)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Regular.woff2: 'To' kern 적용 (2414 → 2256)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Regular.woff2: 'Ya' kern 적용 (2394 → 2250)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Regular.woff2: 기본 adv [1220, 898, 1202, 1264, 1278, 1222, 1256, 1102, 1242, 1256] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Regular.woff2: tnum 10자 adv 동일 (1258)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Regular.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Regular.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Regular.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Regular.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Regular.woff2: space = nbsp adv 514"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Medium.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Medium.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Medium.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Medium.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Medium.woff2: 'AV' kern 적용 (2740 → 2589)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Medium.woff2: 'To' kern 적용 (2450 → 2292)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Medium.woff2: 'Ya' kern 적용 (2452 → 2287)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Medium.woff2: 기본 adv [1264, 918, 1218, 1278, 1300, 1242, 1276, 1118, 1266, 1276] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Medium.woff2: tnum 10자 adv 동일 (1286)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Medium.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Medium.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Medium.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Medium.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Medium.woff2: space = nbsp adv 500"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-SemiBold.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-SemiBold.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-SemiBold.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-SemiBold.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-SemiBold.woff2: 'AV' kern 적용 (2840 → 2675)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-SemiBold.woff2: 'To' kern 적용 (2486 → 2328)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-SemiBold.woff2: 'Ya' kern 적용 (2508 → 2322)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-SemiBold.woff2: 기본 adv [1308, 940, 1234, 1294, 1322, 1264, 1296, 1134, 1292, 1296] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-SemiBold.woff2: tnum 10자 adv 동일 (1314)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-SemiBold.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-SemiBold.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-SemiBold.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-SemiBold.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-SemiBold.woff2: space = nbsp adv 486"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Bold.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Bold.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Bold.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Bold.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Bold.woff2: 'AV' kern 적용 (2940 → 2762)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Bold.woff2: 'To' kern 적용 (2524 → 2366)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Bold.woff2: 'Ya' kern 적용 (2566 → 2360)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Bold.woff2: 기본 adv [1352, 960, 1250, 1308, 1346, 1284, 1316, 1150, 1318, 1316] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Bold.woff2: tnum 10자 adv 동일 (1340)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Bold.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Bold.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Bold.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Bold.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Bold.woff2: space = nbsp adv 472"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-ExtraBold.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-ExtraBold.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-ExtraBold.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-ExtraBold.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraBold.woff2: 'AV' kern 적용 (3040 → 2848)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraBold.woff2: 'To' kern 적용 (2562 → 2404)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-ExtraBold.woff2: 'Ya' kern 적용 (2624 → 2396)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-ExtraBold.woff2: 기본 adv [1396, 980, 1266, 1324, 1368, 1306, 1338, 1168, 1342, 1338] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-ExtraBold.woff2: tnum 10자 adv 동일 (1368)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-ExtraBold.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-ExtraBold.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraBold.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-ExtraBold.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-ExtraBold.woff2: space = nbsp adv 458"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySans-Black.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySans-Black.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySans-Black.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySans-Black.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Black.woff2: 'AV' kern 적용 (3140 → 2935)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Black.woff2: 'To' kern 적용 (2600 → 2442)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySans-Black.woff2: 'Ya' kern 적용 (2682 → 2434)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySans-Black.woff2: 기본 adv [1440, 1000, 1282, 1340, 1390, 1326, 1358, 1184, 1368, 1358] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySans-Black.woff2: tnum 10자 adv 동일 (1394)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySans-Black.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySans-Black.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Black.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySans-Black.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySans-Black.woff2: space = nbsp adv 446"
+  ],
+  [
+   "PASS",
+   "hangul-11172",
+   "JennySansVariable.woff2: 11,172 음절 각각 1 글립·gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: ko 문단 107자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: en 문단 118자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: es 문단 156자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: pl 문단 60자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: cs 문단 55자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: tr 문단 56자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: de 문단 78자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: ro 문단 50자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: el 문단 71자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: ru 문단 68자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: digits 문단 74자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: symbols 문단 90자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "paragraph",
+   "JennySansVariable.woff2: jamo 문단 44자 gid0 0건"
+  ],
+  [
+   "PASS",
+   "combining",
+   "JennySansVariable.woff2: 결합 시퀀스 12종 — ccmp 합성 12, mark 배치 0, 실패 0"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.woff2: 한글 NFD → 음절 합성 동일 (2 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.woff2: 똠 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.woff2: 힣 NFD → 음절 합성 동일 (1 글립)"
+  ],
+  [
+   "PASS",
+   "nfd",
+   "JennySansVariable.woff2: 제니산스 NFD → 음절 합성 동일 (4 글립)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySansVariable.woff2: 'AV' kern 적용 (2644 → 2506)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySansVariable.woff2: 'To' kern 적용 (2414 → 2256)"
+  ],
+  [
+   "PASS",
+   "kern",
+   "JennySansVariable.woff2: 'Ya' kern 적용 (2394 → 2250)"
+  ],
+  [
+   "INFO",
+   "digits",
+   "JennySansVariable.woff2: 기본 adv [1220, 898, 1202, 1264, 1278, 1222, 1256, 1102, 1242, 1256] → proportional"
+  ],
+  [
+   "PASS",
+   "tnum",
+   "JennySansVariable.woff2: tnum 10자 adv 동일 (1258)"
+  ],
+  [
+   "PASS",
+   "pnum",
+   "JennySansVariable.woff2: pnum adv 상이(비례폭)"
+  ],
+  [
+   "PASS",
+   "fullwidth-digits",
+   "JennySansVariable.woff2: 전각 숫자 adv 1920 동일"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySansVariable.woff2: '1/2' frac 적용 → ['uniE0DD', 'fraction', 'uniE0B6']"
+  ],
+  [
+   "INFO",
+   "frac",
+   "JennySansVariable.woff2: '2/3' frac → ['uniE0DE', 'fraction', 'uniE0B7'] (⅔ 프리컴포즈 글립 uni2154)"
+  ],
+  [
+   "PASS",
+   "space",
+   "JennySansVariable.woff2: space = nbsp adv 514"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.ttf wght=100: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "PASS",
+   "vf-phantom",
+   "JennySansVariable.ttf wght=100: ㉠ adv 1752 = ① adv 1752"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.ttf wght=250: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "PASS",
+   "vf-phantom",
+   "JennySansVariable.ttf wght=250: ㉠ adv 1768 = ① adv 1768"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.ttf wght=500: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "PASS",
+   "vf-phantom",
+   "JennySansVariable.ttf wght=500: ㉠ adv 1800 = ① adv 1800"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.ttf wght=650: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "WARN",
+   "vf-phantom",
+   "JennySansVariable.ttf wght=650: ㉠ adv 1824 vs ① adv 1825 (1 unit 차 — VF 의 ① 은 Pretendard VF 보간값, ㉠ 은 정적 참조값 유래)"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.ttf wght=900: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "WARN",
+   "vf-phantom",
+   "JennySansVariable.ttf wght=900: ㉠ adv 1864 vs ① adv 1865 (1 unit 차 — VF 의 ① 은 Pretendard VF 보간값, ㉠ 은 정적 참조값 유래)"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.woff2 wght=100: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "PASS",
+   "vf-phantom",
+   "JennySansVariable.woff2 wght=100: ㉠ adv 1752 = ① adv 1752"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.woff2 wght=250: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "PASS",
+   "vf-phantom",
+   "JennySansVariable.woff2 wght=250: ㉠ adv 1768 = ① adv 1768"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.woff2 wght=500: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "PASS",
+   "vf-phantom",
+   "JennySansVariable.woff2 wght=500: ㉠ adv 1800 = ① adv 1800"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.woff2 wght=650: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "WARN",
+   "vf-phantom",
+   "JennySansVariable.woff2 wght=650: ㉠ adv 1824 vs ① adv 1825 (1 unit 차 — VF 의 ① 은 Pretendard VF 보간값, ㉠ 은 정적 참조값 유래)"
+  ],
+  [
+   "PASS",
+   "vf-wght",
+   "JennySansVariable.woff2 wght=900: 한글 표본 1,596 + 문단 + 결합 시퀀스 gid0 0건"
+  ],
+  [
+   "WARN",
+   "vf-phantom",
+   "JennySansVariable.woff2 wght=900: ㉠ adv 1864 vs ① adv 1865 (1 unit 차 — VF 의 ① 은 Pretendard VF 보간값, ㉠ 은 정적 참조값 유래)"
+  ]
+ ]
+}

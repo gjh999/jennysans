@@ -1,0 +1,341 @@
+{
+ "generated": "2026-10-24T15:08:08+09:00",
+ "version": "1.001",
+ "font": "JennySans-Regular.ttf",
+ "method": "정서법 필수 문자 + 샘플 문장의 모든 글자가 dist 산출물 cmap 에 있을 때만 지원으로 셈 (라틴 목록은 charset/scripts/lang_check.py 의 LANGS 를 그대로 사용)",
+ "counts": {
+  "latin": 28,
+  "cyrillic": 6,
+  "other": 3,
+  "total": 37
+ },
+ "languages": {
+  "latin": 29,
+  "cyrillic": 6,
+  "other": 3,
+  "total": 38
+ },
+ "groups": {
+  "latin": [
+   {
+    "name": "스페인어",
+    "native": "Español",
+    "sample": "El veloz murciélago hindú comía feliz cardillo y kiwi.",
+    "letters": 21,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "포르투갈어",
+    "native": "Português",
+    "sample": "Um pequeno jabuti xereta viu dez cegonhas felizes.",
+    "letters": 25,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "프랑스어",
+    "native": "Français",
+    "sample": "Portez ce vieux whisky au juge blond qui fume.",
+    "letters": 35,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "독일어",
+    "native": "Deutsch",
+    "sample": "Falsches Üben von Xylophonmusik quält jeden größeren Zwerg.",
+    "letters": 12,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "이탈리아어",
+    "native": "Italiano",
+    "sample": "Pranzo d'acqua fa volti sghembi. Perché non è così?",
+    "letters": 21,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "네덜란드어",
+    "native": "Nederlands",
+    "sample": "Pa's wijze lynx bezag vroom het fikse aquaduct.",
+    "letters": 21,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "폴란드어",
+    "native": "Polski",
+    "sample": "Zażółć gęślą jaźń — pchnąć w tę łódź jeża.",
+    "letters": 20,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "체코어",
+    "native": "Čeština",
+    "sample": "Příliš žluťoučký kůň úpěl ďábelské ódy.",
+    "letters": 32,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "슬로바키아어",
+    "native": "Slovenčina",
+    "sample": "Kŕdeľ šťastných ďatľov učí pri ústí Váhu mĺkveho koňa.",
+    "letters": 34,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "헝가리어",
+    "native": "Magyar",
+    "sample": "Árvíztűrő tükörfúrógép a szomjas öreg fűzfa mögött.",
+    "letters": 20,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "터키어",
+    "native": "Türkçe",
+    "sample": "Pijamalı hasta yağız şoföre çabucak güvendi.",
+    "letters": 12,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "크로아티아어",
+    "native": "Hrvatski",
+    "sample": "Čokolada, ćevapi, đak, šešir i žaba u Đakovu.",
+    "letters": 10,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "슬로베니아어",
+    "native": "Slovenščina",
+    "sample": "Šerif bo za vajo spet skuhal domače žgance.",
+    "letters": 6,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "루마니아어",
+    "native": "Română",
+    "sample": "Înțelepciunea și frumusețea în România de astăzi.",
+    "letters": 10,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "리투아니아어",
+    "native": "Lietuvių",
+    "sample": "Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą.",
+    "letters": 18,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "라트비아어",
+    "native": "Latviešu",
+    "sample": "Glāžšķūņa rūķīši dzērumā čiepj Baha koncertflīģeļu vākus.",
+    "letters": 22,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "에스토니아어",
+    "native": "Eesti",
+    "sample": "Põdur Zagrebi tšellomängija-följetonist läks garaaži.",
+    "letters": 12,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "핀란드어",
+    "native": "Suomi",
+    "sample": "Törkylempijävongahdus — hyvän lämmön ääriviivat.",
+    "letters": 6,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "스웨덴어",
+    "native": "Svenska",
+    "sample": "Flygande bäckasiner söka hwila på mjuka tuvor.",
+    "letters": 6,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "덴마크어 · 노르웨이어",
+    "native": "Dansk · Norsk",
+    "sample": "Høj bly gom vandt frækt på wc — æbler og øl i Åbenrå.",
+    "letters": 6,
+    "script": "latin",
+    "langs": 2
+   },
+   {
+    "name": "아이슬란드어",
+    "native": "Íslenska",
+    "sample": "Kæmi ný öxi hér, ykist þjófum nú bæði víl og ádrepa.",
+    "letters": 20,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "카탈루냐어",
+    "native": "Català",
+    "sample": "Jove xef, porti whisky amb quinze glaçons d'hidrogen.",
+    "letters": 21,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "갈리시아어",
+    "native": "Galego",
+    "sample": "A lingua galega é o noso sinal de identidade máis señeiro.",
+    "letters": 14,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "바스크어",
+    "native": "Euskara",
+    "sample": "Euskara ez da hizkuntza arrunta; Iruñean ikasi dugu.",
+    "letters": 2,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "몰타어",
+    "native": "Malti",
+    "sample": "Ċikkulata bil-ġobon u ħwawar żgħar fil-belt.",
+    "letters": 8,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "웨일스어",
+    "native": "Cymraeg",
+    "sample": "Mae'r ŵy hwn yn flasus iawn, a'r tŷ yn hyfryd.",
+    "letters": 26,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "아일랜드어",
+    "native": "Gaeilge",
+    "sample": "Chuaigh bé mhórshách le dlúthspád fíorfhinn.",
+    "letters": 10,
+    "script": "latin",
+    "langs": 1
+   },
+   {
+    "name": "에스페란토",
+    "native": "Esperanto",
+    "sample": "Eĥoŝanĝo ĉiuĵaŭde — ĝi ja ŝajnas facila.",
+    "letters": 12,
+    "script": "latin",
+    "langs": 1
+   }
+  ],
+  "cyrillic": [
+   {
+    "name": "러시아어",
+    "native": "Русский",
+    "sample": "Съешь же ещё этих мягких французских булок, да выпей чаю.",
+    "letters": 66,
+    "script": "cyrillic",
+    "langs": 1
+   },
+   {
+    "name": "우크라이나어",
+    "native": "Українська",
+    "sample": "Чуєш їх, доцю, га? Кумедна ж ти, знаєш?",
+    "letters": 66,
+    "script": "cyrillic",
+    "langs": 1
+   },
+   {
+    "name": "벨라루스어",
+    "native": "Беларуская",
+    "sample": "Я жыву ў Беларусі — цудоўны край і мова.",
+    "letters": 64,
+    "script": "cyrillic",
+    "langs": 1
+   },
+   {
+    "name": "불가리아어",
+    "native": "Български",
+    "sample": "Ах, чудна българска земьо, полюшвай цъфтящи жита.",
+    "letters": 60,
+    "script": "cyrillic",
+    "langs": 1
+   },
+   {
+    "name": "세르비아어",
+    "native": "Српски",
+    "sample": "Љубазни фењерџија чађавог лица хоће да ми покаже штос.",
+    "letters": 60,
+    "script": "cyrillic",
+    "langs": 1
+   },
+   {
+    "name": "마케도니아어",
+    "native": "Македонски",
+    "sample": "Ѕидарот ѓоа ќе дојде да ја заврши куќата.",
+    "letters": 62,
+    "script": "cyrillic",
+    "langs": 1
+   }
+  ],
+  "other": [
+   {
+    "name": "한국어",
+    "native": "한국어",
+    "sample": "다람쥐 헌 쳇바퀴에 타고파. 키스의 고유조건은 입술끼리 만나야 한다.",
+    "letters": 14,
+    "script": "other",
+    "langs": 1
+   },
+   {
+    "name": "영어",
+    "native": "English",
+    "sample": "Sphinx of black quartz, judge my vow.",
+    "letters": 52,
+    "script": "other",
+    "langs": 1
+   },
+   {
+    "name": "그리스어",
+    "native": "Ελληνικά",
+    "sample": "Ξεσκεπάζω την ψυχοφθόρα βδελυγμία.",
+    "letters": 57,
+    "script": "other",
+    "langs": 1
+   }
+  ]
+ },
+ "excluded": [
+  {
+   "name": "베트남어",
+   "native": "Tiếng Việt",
+   "script": "latin",
+   "sample": "",
+   "missing": [
+    "U+01A0",
+    "U+01A1",
+    "U+01AF",
+    "U+01B0",
+    "U+1EA1",
+    "U+1EA3",
+    "…"
+   ],
+   "missing_count": 48,
+   "reason": "원본 폰트 미보유(후속 검토)"
+  }
+ ]
+}

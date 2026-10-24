@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JennySans QA 격자 — 정적 / 변수 / 분할</title>
+<!--
+  QA 용 격자. 상단 버튼 또는 ?mode=static|variable|subset|variable-subset 으로 CSS 를 전환한다.
+  폴백 폰트를 일부러 세리프로 두어(JennySans 가 안 잡히면 명조로 보임) 스크린샷에서 폴백을 바로 알아볼 수 있게 했다.
+  경로: ../dist/css/… (저장소 상대). 서버에서는 /dist → latest 심링크(deploy/README.md).
+  Playwright: page.goto('site/test.html?mode=subset&size=20'); await page.evaluate(() => document.fonts.ready); 스크린샷.
+-->
+<link id="fontcss" rel="stylesheet" href="../dist/css/jennysans.css">
+<style>
+  :root { --bg:#fff; --fg:#111; --muted:#666; --line:#ddd; --ok:#0a7a3c; --bad:#b3261e; --card:#f5f6f8; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#101215; --fg:#e9eaee; --muted:#9aa1aa; --line:#2a2f37; --ok:#4cd07d; --bad:#ff7b72; --card:#181b20; } }
+  html { background: var(--bg); color: var(--fg); }
+  body { margin: 0; padding: 16px 20px 60px; font-family: "JennySans", "Times New Roman", "Batang", "AppleMyungjo", serif; font-synthesis: none; line-height: 1.5; }
+  .bar { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--line); padding: 10px 0; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-family: system-ui, sans-serif; font-size: 14px; z-index: 2; }
+  .bar button { font: inherit; padding: 6px 12px; border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 6px; cursor: pointer; }
+  .bar button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .bar select { font: inherit; }
+  #status { font-family: ui-monospace, Consolas, monospace; font-size: 12px; color: var(--muted); }
+  #status .ok { color: var(--ok); } #status .bad { color: var(--bad); }
+  h1 { font-size: 18px; font-weight: 600; margin: 18px 0 8px; }
+  table { border-collapse: collapse; width: 100%; table-layout: fixed; }
+  th, td { border: 1px solid var(--line); padding: 6px 8px; vertical-align: top; overflow-wrap: anywhere; }
+  th { font-family: system-ui, sans-serif; font-weight: 500; font-size: 12px; color: var(--muted); text-align: left; background: var(--card); }
+  td.w { font-family: system-ui, sans-serif; font-size: 12px; color: var(--muted); white-space: nowrap; width: 92px; }
+  td.w b { display: block; color: var(--fg); font-weight: 500; }
+  td.s { font-size: var(--size, 20px); }
+  .lh { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .lh div { border: 1px solid var(--line); padding: 0 8px; font-size: 22px; }
+  .lh div span { display: block; border-bottom: 1px dotted var(--line); }
+  .note { font-family: system-ui, sans-serif; font-size: 12px; color: var(--muted); }
+  .cover { font-size: 18px; line-height: 1.8; }
+</style>
+</head>
+<body>
+<div class="bar">
+  <strong>JennySans QA</strong>
+  <span>CSS:</span>
+  <button type="button" data-mode="static" aria-pressed="true">정적 jennysans.css</button>
+  <button type="button" data-mode="variable" aria-pressed="false">변수 jennysans-variable.css</button>
+  <button type="button" data-mode="subset" aria-pressed="false">분할 jennysans-dynamic-subset.css</button>
+  <button type="button" data-mode="variable-subset" aria-pressed="false">변수 분할 jennysans-variable-dynamic-subset.css</button>
+  <label>크기 <select id="size"><option>12</option><option>14</option><option>16</option><option selected>20</option><option>28</option><option>40</option><option>64</option></select> px</label>
+  <span id="status">document.fonts: 대기…</span>
+</div>
+
+<h1>9 웨이트 × 한글 · 라틴 · 스페인어 · 숫자 · 기호 · 자모</h1>
+<p class="note">폴백은 일부러 세리프(명조)입니다 — 세리프로 보이면 JennySans 가 적용되지 않은 것. 굵기 합성은 <code>font-synthesis: none</code> 으로 꺼져 있습니다.</p>
+<table id="grid">
+  <thead>
+    <tr><th style="width:92px">weight</th><th>한글</th><th>라틴</th><th>스페인어</th><th>숫자</th><th>기호</th><th>자모</th></tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<h1>줄 높이 검사 (100 / 400 / 900 — 세 칸의 줄 간격이 같아야 함)</h1>
+<div class="lh">
+  <div style="font-weight:100"><span>제니산스 Thin 100 ¿Qué?</span><span>둘째 줄 Second line</span><span>셋째 줄 Tercera línea</span></div>
+  <div style="font-weight:400"><span>제니산스 Regular 400 ¿Qué?</span><span>둘째 줄 Second line</span><span>셋째 줄 Tercera línea</span></div>
+  <div style="font-weight:900"><span>제니산스 Black 900 ¿Qué?</span><span>둘째 줄 Second line</span><span>셋째 줄 Tercera línea</span></div>
+</div>
+
+<h1>분할 커버 검사 (드문 한글·기호 — 분할 모드에서 여러 슬라이스가 요청되어야 함)</h1>
+<p class="cover" style="font-weight:400">똠 뷁 햏 뜷 쀍 꾋 흻 쒔 퓖 볺 갃 뷇 쁩 홥 힣 · 갛 갮 걁 겪 곬 괆 굡 궲 · ㉠㉡㉢㉣㉤ ⒜⒝⒞ ㈎㈏㈐ ㎈㎉㎊ ∠∴◎ ※ ₩ € ₹ ¿¡ ñÑüÜ ªº</p>
+<p class="cover" style="font-weight:700">똠 뷁 햏 뜷 쀍 꾋 흻 쒔 퓖 볺 갃 뷇 쁩 홥 힣 · 갛 갮 걁 겪 곬 괆 굡 궲 · ㉠㉡㉢㉣㉤ ⒜⒝⒞ ㈎㈏㈐ ㎈㎉㎊ ∠∴◎ ※ ₩ € ₹ ¿¡ ñÑüÜ ªº</p>
+<p class="cover" style="font-weight:400">NFD: 한글 (ᄒ ᅡ ᆫ ᄀ ᅳ ᆯ) · 결합: n&#x0303; u&#x0308; a&#x0301; c&#x0327; e&#x030C; · 채움: ᅟ ᅠ</p>
+
+<script>
+(function () {
+  var CSS = {
+    static:   '../dist/css/jennysans.css',
+    variable: '../dist/css/jennysans-variable.css',
+    subset:   '../dist/css/jennysans-dynamic-subset.css',
+    'variable-subset': '../dist/css/jennysans-variable-dynamic-subset.css'
+  };
+  var WEIGHTS = [[100,'Thin'],[200,'ExtraLight'],[300,'Light'],[400,'Regular'],[500,'Medium'],[600,'SemiBold'],[700,'Bold'],[800,'ExtraBold'],[900,'Black']];
+  var COLS = [
+    '제니산스 다람쥐 헌 쳇바퀴에 타고파. 키스의 고유조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다.',
+    'JennySans The quick brown fox jumps over the lazy dog. Sphinx of black quartz, judge my vow.',
+    '¿Qué tal, señor? ¡Año nuevo! Ñandú, pingüino, 1ª 2º, 12,50 €. El veloz murciélago hindú.',
+    '0123456789 1,234,567.89 12:34:56 +82-10-1234-5678 ½ ¼ ¾ ¹²³ H₂O',
+    '※ ①②③ ㉠㉡㉢ ㈜ ㎏ ㎡ ℃ ← → ↔ ★ ☆ ○ ● ◎ ■ □ ◇ 「」『』 〈〉 《》 · … ― ~ ₩ € ₹ ∠ ∴ ± × ÷ ≠ ≤ ≥ ∞',
+    'ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ ㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ ㅋㅋㅋ ㅠㅠ ㅥㅱㅸㆁㆆㆍ ᄀᄂᄃ ᅡᅢᅣ ᆨᆩᆪ'
+  ];
+  var tbody = document.querySelector('#grid tbody');
+  WEIGHTS.forEach(function (w) {
+    var tr = document.createElement('tr');
+    var td = document.createElement('td'); td.className = 'w'; td.innerHTML = '<b>' + w[1] + '</b>' + w[0]; tr.appendChild(td);
+    COLS.forEach(function (t, i) {
+      var c = document.createElement('td'); c.className = 's'; c.style.fontWeight = String(w[0]);
+      if (i === 2) c.setAttribute('lang', 'es');
+      c.textContent = t; tr.appendChild(c);
+    });
+    tbody.appendChild(tr);
+  });
+
+  var link = document.getElementById('fontcss');
+  var status = document.getElementById('status');
+  var buttons = Array.prototype.slice.call(document.querySelectorAll('.bar button[data-mode]'));
+
+  function setMode(mode, push) {
+    if (!CSS[mode]) mode = 'static';
+    link.href = CSS[mode];
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-mode') === mode ? 'true' : 'false'); });
+    document.documentElement.setAttribute('data-mode', mode);
+    if (push && history.replaceState) {
+      var u = new URL(location.href); u.searchParams.set('mode', mode); history.replaceState(null, '', u);
+    }
+    status.textContent = 'document.fonts: 로드 중… (' + mode + ')';
+    report(mode);
+  }
+
+  function report(mode) {
+    if (!document.fonts) { status.textContent = 'document.fonts API 없음'; return; }
+    var tries = 0;
+    function run() {
+      document.fonts.ready.then(function () {
+        var faces = 0, loaded = 0;
+        document.fonts.forEach(function (f) { if (/JennySans/i.test(f.family)) { faces++; if (f.status === 'loaded') loaded++; } });
+        var checks = WEIGHTS.map(function (w) { return w[0] + ':' + (document.fonts.check(w[0] + ' 16px "JennySans"') ? 'ok' : 'NO'); }).join(' ');
+        var html = 'mode=' + mode + ' · faces declared=' + faces + ' loaded=' + loaded + ' · ' + checks;
+        var bad = faces === 0 || loaded === 0 || /:NO/.test(checks);
+        status.innerHTML = '<span class="' + (bad ? 'bad' : 'ok') + '">' + html + '</span>';
+        // 분할 모드는 화면에 글자가 그려진 뒤 슬라이스가 순차 로드되므로 두어 번 다시 센다
+        if (/subset/.test(mode) && tries++ < 4) setTimeout(run, 600);
+      });
+    }
+    run();
+  }
+
+  buttons.forEach(function (b) { b.addEventListener('click', function () { setMode(b.getAttribute('data-mode'), true); }); });
+
+  var sizeSel = document.getElementById('size');
+  function setSize(px) { document.documentElement.style.setProperty('--size', px + 'px'); sizeSel.value = String(px); }
+  sizeSel.addEventListener('change', function () { setSize(sizeSel.value); });
+
+  var params = new URLSearchParams(location.search);
+  if (params.get('size')) setSize(parseInt(params.get('size'), 10) || 20);
+  setMode(params.get('mode') || 'static', false);
+})();
+</script>
+</body>
+</html>

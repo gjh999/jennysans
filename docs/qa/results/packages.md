@@ -1,0 +1,51 @@
+# 배포 패키지 zip 4종
+
+결과: **PASS** (FAIL 0 · WARN 1 · PASS 30 · INFO 5)
+
+| 상태 | 항목 | 내용 |
+|---|---|---|
+| INFO | index | index.json version 1.001 generated 2026-10-24T15:08:08+09:00 packages ['desktop', 'web', 'variable', 'all'] |
+| PASS | sha256sums | JennySans-1.001-desktop.zip: SHA256SUMS 일치 (9eb23f744bd74763…), 10,064,037 B |
+| PASS | index | JennySans-1.001-desktop.zip: index.json bytes/sha 일치 |
+| PASS | zip | JennySans-1.001-desktop.zip: 최상위 폴더 {'JennySans-1.001-desktop'} |
+| PASS | docs | JennySans-1.001-desktop.zip: 동봉 문서 ['LICENSE', 'LICENSE.txt', 'THIRD-PARTY-NOTICES.md', 'README-설치안내.txt'] 전부 있음 |
+| PASS | docs | JennySans-1.001-desktop.zip: zip LICENSE == 루트 LICENSE (5459 B) |
+| PASS | docs | JennySans-1.001-desktop.zip: LICENSE.txt == LICENSE(CRLF 정규화) |
+| INFO | docs | JennySans-1.001-desktop.zip: README-설치안내.txt 2710자, 첫 줄 '\ufeffJennySans 「제니산스」 1.001 — 데스크톱 설치용 (정적 TTF 9종)' |
+| PASS | fonts | JennySans-1.001-desktop.zip: 폰트 9/9 dist 와 SHA-256 동일, 문제 [] |
+| PASS | sha256sums | JennySans-1.001-web.zip: SHA256SUMS 일치 (47c8415ac147b8bc…), 23,415,240 B |
+| PASS | index | JennySans-1.001-web.zip: index.json bytes/sha 일치 |
+| PASS | zip | JennySans-1.001-web.zip: 최상위 폴더 {'JennySans-1.001-web'} |
+| PASS | docs | JennySans-1.001-web.zip: 동봉 문서 ['LICENSE', 'LICENSE.txt', 'THIRD-PARTY-NOTICES.md', 'README-설치안내.txt'] 전부 있음 |
+| PASS | docs | JennySans-1.001-web.zip: zip LICENSE == 루트 LICENSE (5459 B) |
+| PASS | docs | JennySans-1.001-web.zip: LICENSE.txt == LICENSE(CRLF 정규화) |
+| INFO | docs | JennySans-1.001-web.zip: README-설치안내.txt 50761자, 첫 줄 '\ufeffJennySans 「제니산스」 1.001 — 웹용 (WOFF2 전체본·분할본 + CSS)' |
+| PASS | fonts | JennySans-1.001-web.zip: 폰트 10/10 dist 와 SHA-256 동일, 문제 [] |
+| PASS | web | JennySans-1.001-web.zip: 분할 woff2 990 (기대 990), css 4 (기대 4) |
+| PASS | sha256sums | JennySans-1.001-variable.zip: SHA256SUMS 일치 (91748e45985fd498…), 5,434,264 B |
+| PASS | index | JennySans-1.001-variable.zip: index.json bytes/sha 일치 |
+| PASS | zip | JennySans-1.001-variable.zip: 최상위 폴더 {'JennySans-1.001-variable'} |
+| PASS | docs | JennySans-1.001-variable.zip: 동봉 문서 ['LICENSE', 'LICENSE.txt', 'THIRD-PARTY-NOTICES.md', 'README-설치안내.txt'] 전부 있음 |
+| PASS | docs | JennySans-1.001-variable.zip: zip LICENSE == 루트 LICENSE (5459 B) |
+| PASS | docs | JennySans-1.001-variable.zip: LICENSE.txt == LICENSE(CRLF 정규화) |
+| INFO | docs | JennySans-1.001-variable.zip: README-설치안내.txt 1729자, 첫 줄 '\ufeffJennySans 「제니산스」 1.001 — 변수 폰트 (TTF + WOFF2 + CSS)' |
+| PASS | fonts | JennySans-1.001-variable.zip: 폰트 1/1 dist 와 SHA-256 동일, 문제 [] |
+| PASS | sha256sums | JennySans-1.001-all.zip: SHA256SUMS 일치 (cf10e407f445b176…), 36,690,893 B |
+| PASS | index | JennySans-1.001-all.zip: index.json bytes/sha 일치 |
+| PASS | zip | JennySans-1.001-all.zip: 최상위 폴더 {'JennySans-1.001-all'} |
+| PASS | docs | JennySans-1.001-all.zip: 동봉 문서 ['LICENSE', 'LICENSE.txt', 'THIRD-PARTY-NOTICES.md', 'README-설치안내.txt'] 전부 있음 |
+| PASS | docs | JennySans-1.001-all.zip: zip LICENSE == 루트 LICENSE (5459 B) |
+| PASS | docs | JennySans-1.001-all.zip: LICENSE.txt == LICENSE(CRLF 정규화) |
+| INFO | docs | JennySans-1.001-all.zip: README-설치안내.txt 52954자, 첫 줄 '\ufeffJennySans 「제니산스」 1.001 — 전체 (정적·변수·웹·CSS·문서)' |
+| PASS | fonts | JennySans-1.001-all.zip: 폰트 20/20 dist 와 SHA-256 동일, 문제 [] |
+| PASS | web | JennySans-1.001-all.zip: 분할 woff2 990 (기대 990), css 4 (기대 4) |
+| WARN | files | SHA256SUMS 에 없는 zip ['JennySans-1.000-all.zip', 'JennySans-1.000-desktop.zip', 'JennySans-1.000-variable.zip', 'JennySans-1.000-web.zip'] |
+
+## zip 목록
+
+| zip | bytes | 파일 수(실측) | index.json files | SHA-256 | 동봉 문서 |
+|---|---|---|---|---|---|
+| JennySans-1.001-desktop.zip | 10,064,037 | 13 | 13 | 9eb23f744bd74763… | LICENSE, LICENSE.txt, README-설치안내.txt, THIRD-PARTY-NOTICES.md |
+| JennySans-1.001-web.zip | 23,415,240 | 1008 | 1008 | 47c8415ac147b8bc… | LICENSE, LICENSE.txt, README-설치안내.txt, THIRD-PARTY-NOTICES.md |
+| JennySans-1.001-variable.zip | 5,434,264 | 7 | 7 | 91748e45985fd498… | LICENSE, LICENSE.txt, README-설치안내.txt, THIRD-PARTY-NOTICES.md |
+| JennySans-1.001-all.zip | 36,690,893 | 1021 | 1021 | cf10e407f445b176… | LICENSE, LICENSE.txt, README-설치안내.txt, THIRD-PARTY-NOTICES.md |

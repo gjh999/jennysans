@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>QA page B — 한국어 소개문 ~300자 + 라틴 (400·700)</title>
+<!-- spec 05 §4 테스트 페이지 B: 한국어 소개문 ~300자 + 라틴, 400·700. 목표(분할 CSS): 전송 ≤ 300 KB, 요청 ≤ 30. ?mode=… -->
+<link id="fontcss" rel="stylesheet" href="../../../dist/css/jennysans-dynamic-subset.css">
+<style>
+  body { font-family: "JennySans", serif; font-synthesis: none; margin: 40px; line-height: 1.7; font-size: 17px; max-width: 820px; }
+  h1 { font-weight: 700; font-size: 30px; }
+  h2 { font-weight: 700; font-size: 22px; }
+</style>
+<script>
+  (function () {
+    var CSS = { static: 'jennysans.css', variable: 'jennysans-variable.css', subset: 'jennysans-dynamic-subset.css', 'variable-subset': 'jennysans-variable-dynamic-subset.css' };
+    var m = new URLSearchParams(location.search).get('mode') || 'subset';
+    document.getElementById('fontcss').href = '../../../dist/css/' + (CSS[m] || CSS.subset);
+  })();
+</script>
+</head>
+<body>
+<h1>제니산스 — 제니소프트 범용 고딕</h1>
+<p>제니산스(JennySans)는 제니소프트의 모든 솔루션과 웹에서 공통으로 쓰기 위해 만든 범용 고딕 글꼴입니다. 현대 한글 11,172자 전부와 자모, 영어와 스페인어를 비롯한 서유럽·중앙유럽 라틴 문자, 기본 그리스·키릴 문자, 그리고 원문자·괄호문자·단위·괘선 같은 한국 문서용 기호(KS X 1001)를 담았습니다.</p>
+<h2>어디에 쓰나요?</h2>
+<p>웹에서는 WOFF2 분할본을 unicode-range 로 나누어 첫 화면에 필요한 조각만 내려받고, 데스크톱에서는 TTF 아홉 가지 굵기를 설치해 한글·워드·포토샵에서 고릅니다. 게임과 앱에서는 변수 폰트 한 파일로 굵기 100부터 900까지 자유롭게 조절할 수 있습니다.</p>
+<p><b>라이선스</b>는 SIL Open Font License 1.1 이며 상업적 사용·수정·재배포·임베드가 모두 허용됩니다. 원본 Pretendard 와 Noto Sans KR 의 저작권 고지는 LICENSE 에 보존됩니다. ¿Qué tal, señor? ¡Año nuevo! 0123456789 ₩12,500 €9,99</p>
+</body>
+</html>
